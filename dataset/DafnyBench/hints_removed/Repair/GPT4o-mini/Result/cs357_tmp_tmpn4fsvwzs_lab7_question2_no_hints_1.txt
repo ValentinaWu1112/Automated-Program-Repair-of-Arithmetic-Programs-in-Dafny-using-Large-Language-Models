@@ -1,0 +1,4 @@
+2
+4
+
+    var a := x + 1; //buggy line

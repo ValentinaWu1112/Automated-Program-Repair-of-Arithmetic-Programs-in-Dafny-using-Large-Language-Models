@@ -1,0 +1,4 @@
+0
+35
+
+sremoved := sremoved + removed[x := s[x]];

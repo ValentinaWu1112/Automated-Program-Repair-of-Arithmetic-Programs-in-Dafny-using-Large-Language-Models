@@ -1,0 +1,4 @@
+0
+86
+
+ var ind := arr.Length - 1; // corrected line

@@ -1,0 +1,4 @@
+0
+67
+
+var medium: int := (low + high) / 2;

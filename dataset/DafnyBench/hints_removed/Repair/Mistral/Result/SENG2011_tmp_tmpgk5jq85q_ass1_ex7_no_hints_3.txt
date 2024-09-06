@@ -1,0 +1,3 @@
+0
+
+ indx := (step - indx) + 1;

@@ -1,0 +1,4 @@
+0
+23
+
+idx := idx + 1; //buggy line

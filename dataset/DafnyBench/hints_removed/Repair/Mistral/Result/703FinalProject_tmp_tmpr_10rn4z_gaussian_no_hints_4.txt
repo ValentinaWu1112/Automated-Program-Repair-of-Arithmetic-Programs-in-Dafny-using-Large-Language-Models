@@ -1,0 +1,4 @@
+0
+
+ while (i < size) //buggy line
+while (i < size)

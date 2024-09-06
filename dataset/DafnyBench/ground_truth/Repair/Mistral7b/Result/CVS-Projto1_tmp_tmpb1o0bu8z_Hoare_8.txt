@@ -1,0 +1,4 @@
+2
+76
+
+ s := s + ll.head; // Change the subtraction to addition to correct the bug.

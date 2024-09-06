@@ -1,0 +1,6 @@
+1
+
+ Here is the fixed line:
+```
+return x + 1; //fixed line
+```

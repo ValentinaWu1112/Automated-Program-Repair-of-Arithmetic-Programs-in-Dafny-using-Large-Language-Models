@@ -1,0 +1,4 @@
+0
+57
+
+ tcopy := tcopy - removed[x := s[x]];

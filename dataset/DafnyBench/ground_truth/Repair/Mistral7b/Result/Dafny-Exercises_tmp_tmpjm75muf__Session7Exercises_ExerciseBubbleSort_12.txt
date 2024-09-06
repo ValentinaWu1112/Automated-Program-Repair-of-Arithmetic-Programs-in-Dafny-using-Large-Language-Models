@@ -1,0 +1,4 @@
+1
+75
+
+ var j := f - 1; // corrected line

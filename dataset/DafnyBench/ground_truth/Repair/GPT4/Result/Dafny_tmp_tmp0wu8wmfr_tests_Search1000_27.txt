@@ -1,0 +1,4 @@
+2
+28
+
+    if a[k+3] < x   { k := k+4;   } //buggy line

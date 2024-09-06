@@ -1,0 +1,4 @@
+0
+28
+
+ N := N + 1; // Instead of using '+' with zero, use the ':' operator to increment a variable.

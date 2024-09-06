@@ -1,0 +1,4 @@
+0
+45
+
+ var i := a.Length0 - 1; // corrected line

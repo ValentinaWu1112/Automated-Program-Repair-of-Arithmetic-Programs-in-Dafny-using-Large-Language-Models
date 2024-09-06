@@ -1,0 +1,4 @@
+1
+43
+
+ c := c + 1; //replace - with +

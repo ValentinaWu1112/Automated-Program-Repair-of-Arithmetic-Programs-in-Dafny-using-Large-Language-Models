@@ -1,0 +1,4 @@
+0
+45
+
+ i := i - 1; // Decrementing the index variable by 1 instead of a constant value.

@@ -1,0 +1,4 @@
+0
+30
+
+            r := mid - 1; //buggy line

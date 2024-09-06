@@ -1,0 +1,4 @@
+0
+24
+
+    var pivotIndex := |input| / 2; //buggy line

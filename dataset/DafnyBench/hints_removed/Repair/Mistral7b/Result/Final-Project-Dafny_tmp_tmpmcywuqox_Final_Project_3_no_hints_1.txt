@@ -1,0 +1,4 @@
+1
+5
+
+ return x + 1; // Corrected line.

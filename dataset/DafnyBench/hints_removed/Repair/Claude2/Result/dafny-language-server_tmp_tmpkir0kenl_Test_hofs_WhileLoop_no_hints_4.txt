@@ -1,0 +1,6 @@
+2
+23
+
+
+// REQUIREMENTS: The following error message is displayed in the console:
+// Error: The statement 'while i <

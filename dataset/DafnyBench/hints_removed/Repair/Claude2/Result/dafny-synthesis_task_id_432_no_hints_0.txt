@@ -1,0 +1,8 @@
+1
+5
+
+
+
+// buggy line should be changed to:
+median := (a + b) / 2;
+

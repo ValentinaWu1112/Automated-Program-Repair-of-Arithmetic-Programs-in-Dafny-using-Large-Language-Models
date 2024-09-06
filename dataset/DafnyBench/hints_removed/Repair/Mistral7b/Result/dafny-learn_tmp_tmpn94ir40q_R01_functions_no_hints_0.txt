@@ -1,0 +1,4 @@
+0
+47
+
+ val2 := 2 * val; // Corrected multiplication instead of division.

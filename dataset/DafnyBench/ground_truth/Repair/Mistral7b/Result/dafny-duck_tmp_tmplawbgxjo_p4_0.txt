@@ -1,0 +1,4 @@
+0
+16
+
+ var sumi := x.Length + y.Length; //fix the calculation of sumi. It should be the sum of lengths of both

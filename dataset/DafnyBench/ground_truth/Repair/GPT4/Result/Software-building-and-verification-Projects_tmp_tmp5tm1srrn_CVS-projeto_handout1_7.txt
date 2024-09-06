@@ -1,0 +1,4 @@
+0
+26
+
+    res := res + a[ind]; //buggy line

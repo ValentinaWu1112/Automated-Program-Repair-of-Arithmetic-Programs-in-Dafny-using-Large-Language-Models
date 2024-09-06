@@ -1,0 +1,4 @@
+0
+5
+
+area := 6 * size * size;

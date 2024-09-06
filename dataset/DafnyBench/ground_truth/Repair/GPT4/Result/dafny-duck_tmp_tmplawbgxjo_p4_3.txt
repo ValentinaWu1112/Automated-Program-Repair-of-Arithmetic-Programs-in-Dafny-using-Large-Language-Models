@@ -1,0 +1,4 @@
+0
+16
+
+var sumi := x.Length + y.Length; //buggy line

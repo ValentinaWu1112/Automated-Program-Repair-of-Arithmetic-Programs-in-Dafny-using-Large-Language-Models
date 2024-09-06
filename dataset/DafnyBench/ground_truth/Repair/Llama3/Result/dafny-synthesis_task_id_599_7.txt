@@ -1,0 +1,4 @@
+2
+13
+
+average := (sum as real) / n as real;

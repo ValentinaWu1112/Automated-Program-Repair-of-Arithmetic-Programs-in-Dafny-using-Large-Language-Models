@@ -1,0 +1,5 @@
+1
+35
+
+ r := r + 1; // Change sign to add instead of subtract
+// Or alternatively, use decrement operator instead of sub

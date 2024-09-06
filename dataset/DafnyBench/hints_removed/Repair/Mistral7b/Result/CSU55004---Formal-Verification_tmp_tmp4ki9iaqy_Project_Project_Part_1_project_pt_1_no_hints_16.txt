@@ -1,0 +1,4 @@
+2
+133
+
+ i := i - 1; // should decrement i instead of incrementing it in each iteration. This is causing the loop to never term

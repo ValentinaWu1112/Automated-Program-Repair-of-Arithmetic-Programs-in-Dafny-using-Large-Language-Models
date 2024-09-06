@@ -1,0 +1,4 @@
+0
+25
+
+    if a[k+31] < x  { k := k + 32;  } //buggy line

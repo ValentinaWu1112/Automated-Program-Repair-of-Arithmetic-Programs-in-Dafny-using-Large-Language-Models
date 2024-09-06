@@ -1,0 +1,4 @@
+0
+35
+
+sum := sum + i; //buggy line

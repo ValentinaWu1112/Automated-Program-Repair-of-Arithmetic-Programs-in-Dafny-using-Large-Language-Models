@@ -1,0 +1,4 @@
+0
+14
+
+    i.val := i.val + 1; //buggy line

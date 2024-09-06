@@ -1,0 +1,4 @@
+0
+55
+
+char_set := char_set - {s[lo]};

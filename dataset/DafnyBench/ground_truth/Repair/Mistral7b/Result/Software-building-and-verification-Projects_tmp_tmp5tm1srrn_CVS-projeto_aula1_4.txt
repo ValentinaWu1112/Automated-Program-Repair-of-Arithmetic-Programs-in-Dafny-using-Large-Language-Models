@@ -1,0 +1,4 @@
+1
+5
+
+ while (m < 0) { // corrected line

@@ -1,0 +1,4 @@
+0
+28
+
+ghost var setA' := setA - {x};

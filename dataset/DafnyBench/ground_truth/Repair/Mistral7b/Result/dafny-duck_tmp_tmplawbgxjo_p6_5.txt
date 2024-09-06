@@ -1,0 +1,4 @@
+1
+26
+
+ i := i + 1; // this was the buggy line, replace it with j := j + 1;

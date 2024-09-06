@@ -1,0 +1,20 @@
+
+Dafny program verifier finished with 1 verified, 0 errors
+
+Dafny program verifier did not attempt verification
+git-issue-1151-more.dfy(13,5): Error: Abstract type ('_module.Opaque') cannot be compiled; perhaps make it a type synonym or use :extern.
+
+Dafny program verifier did not attempt verification
+git-issue-1151-more.dfy(13,5): Error: Abstract type ('_module.Opaque') cannot be compiled; perhaps make it a type synonym or use :extern.
+
+Dafny program verifier did not attempt verification
+git-issue-1151-more.dfy(13,5): Error: Abstract type ('_module.Opaque') cannot be compiled; perhaps make it a type synonym or use :extern.
+
+Dafny program verifier did not attempt verification
+git-issue-1151-more.dfy(13,5): Error: Abstract type ('_module.Opaque') cannot be compiled; perhaps make it a type synonym or use :extern.
+
+Dafny program verifier did not attempt verification
+git-issue-1151-more.dfy(13,5): Error: Abstract type ('_module.Opaque') cannot be compiled; perhaps make it a type synonym or use :extern.
+
+Dafny program verifier did not attempt verification
+git-issue-1151-more.dfy(13,5): Error: Abstract type ('_module.Opaque') cannot be compiled; perhaps make it a type synonym or use :extern.

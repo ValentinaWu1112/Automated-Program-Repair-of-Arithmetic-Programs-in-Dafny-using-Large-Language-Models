@@ -1,0 +1,4 @@
+1
+21
+
+ x, y := y, y + x; //single assignment

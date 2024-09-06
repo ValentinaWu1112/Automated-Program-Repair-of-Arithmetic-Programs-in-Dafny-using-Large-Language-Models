@@ -1,0 +1,5 @@
+0
+14
+
+
+// /Applications/dafny/dafny /Users/apple/GaussianDP/Dafny/gaussian

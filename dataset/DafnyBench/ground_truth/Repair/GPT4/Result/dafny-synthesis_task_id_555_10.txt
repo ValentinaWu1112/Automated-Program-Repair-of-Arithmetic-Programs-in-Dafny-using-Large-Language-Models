@@ -1,0 +1,4 @@
+0
+15
+
+    diff := sumCubes - sumNumbers; //buggy line

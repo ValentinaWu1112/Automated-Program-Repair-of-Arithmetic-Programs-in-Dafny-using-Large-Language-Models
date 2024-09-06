@@ -1,0 +1,4 @@
+0
+78
+
+offsets := offsets + {i};

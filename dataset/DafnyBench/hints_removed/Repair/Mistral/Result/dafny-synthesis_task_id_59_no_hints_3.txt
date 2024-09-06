@@ -1,0 +1,3 @@
+2
+
+ octagonalNumber := n * (3 * n - 2);

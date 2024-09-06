@@ -1,0 +1,4 @@
+0
+136
+
+c[m, n] := b[n] - b[m - 1]; //buggy line

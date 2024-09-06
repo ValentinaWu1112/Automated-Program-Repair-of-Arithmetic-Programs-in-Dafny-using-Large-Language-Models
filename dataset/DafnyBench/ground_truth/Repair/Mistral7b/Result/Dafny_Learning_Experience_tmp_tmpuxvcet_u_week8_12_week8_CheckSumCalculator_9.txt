@@ -1,0 +1,4 @@
+0
+38
+
+ i := i + 1; //change the sign of increment operator to fix the bug.

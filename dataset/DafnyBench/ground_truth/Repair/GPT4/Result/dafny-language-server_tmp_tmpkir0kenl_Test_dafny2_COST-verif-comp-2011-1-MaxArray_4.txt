@@ -1,0 +1,4 @@
+2
+76
+
+x := x + 1;  m := y; //buggy line

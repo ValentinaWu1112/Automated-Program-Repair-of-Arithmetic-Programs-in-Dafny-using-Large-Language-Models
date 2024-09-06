@@ -1,0 +1,4 @@
+0
+13
+
+        result[i] := result[i / 2] + i % 2; //buggy line

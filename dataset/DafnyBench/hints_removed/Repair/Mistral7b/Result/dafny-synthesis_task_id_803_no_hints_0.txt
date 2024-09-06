@@ -1,0 +1,4 @@
+1
+7
+
+ while (i * i <= n) // Change the condition to be less than or equal instead of less than. This ensures that the loop term

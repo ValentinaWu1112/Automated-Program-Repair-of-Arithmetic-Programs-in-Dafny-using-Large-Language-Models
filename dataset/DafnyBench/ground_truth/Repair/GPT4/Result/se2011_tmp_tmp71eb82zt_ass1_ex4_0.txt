@@ -1,0 +1,4 @@
+0
+11
+
+z := z + x; 							// do not change

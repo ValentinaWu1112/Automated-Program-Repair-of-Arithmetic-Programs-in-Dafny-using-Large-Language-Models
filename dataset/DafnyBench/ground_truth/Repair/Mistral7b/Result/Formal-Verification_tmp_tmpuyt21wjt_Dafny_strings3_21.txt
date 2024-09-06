@@ -1,0 +1,4 @@
+2
+114
+
+ i := i - 1; // corrected to i := i - 1; (remove the negative sign)

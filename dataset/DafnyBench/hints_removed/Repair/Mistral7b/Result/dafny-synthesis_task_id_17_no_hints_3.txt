@@ -1,0 +1,4 @@
+0
+5
+
+ perimeter := 4 * side; // Corrected line for calculating the perimeter of a square.

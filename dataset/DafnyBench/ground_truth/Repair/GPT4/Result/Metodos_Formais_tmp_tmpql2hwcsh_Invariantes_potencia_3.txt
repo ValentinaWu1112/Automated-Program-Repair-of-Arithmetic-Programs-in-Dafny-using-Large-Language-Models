@@ -1,0 +1,4 @@
+0
+24
+
+        r := r * b; //buggy line

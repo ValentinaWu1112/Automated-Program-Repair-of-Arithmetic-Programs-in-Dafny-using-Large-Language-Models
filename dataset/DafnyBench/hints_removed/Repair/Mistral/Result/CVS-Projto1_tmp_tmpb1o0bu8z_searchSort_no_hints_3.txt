@@ -1,0 +1,4 @@
+2
+
+ while p < c //buggy line
+while p < c && p < a.Length

@@ -1,0 +1,4 @@
+0
+73
+
+ s := s + v[j - 1]; // corrected line

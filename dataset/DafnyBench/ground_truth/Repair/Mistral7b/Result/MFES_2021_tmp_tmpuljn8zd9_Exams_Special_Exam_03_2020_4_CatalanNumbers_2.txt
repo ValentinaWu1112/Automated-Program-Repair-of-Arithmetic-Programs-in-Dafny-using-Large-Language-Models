@@ -1,0 +1,4 @@
+1
+18
+
+ ghost var v0 := n - i;

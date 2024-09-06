@@ -1,0 +1,4 @@
+0
+27
+
+ i := i + 1; // correct increment for the while loop

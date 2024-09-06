@@ -1,0 +1,4 @@
+0
+20
+
+ i := i + 1; // Change the sign of the increment to move out of the loop instead of going back in.

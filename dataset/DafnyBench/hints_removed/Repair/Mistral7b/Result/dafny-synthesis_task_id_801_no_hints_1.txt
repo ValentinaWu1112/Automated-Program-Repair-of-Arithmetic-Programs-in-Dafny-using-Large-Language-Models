@@ -1,0 +1,4 @@
+0
+9
+
+ count := count + 1; // at the buggy line, we should be incrementing count instead of assigning it 0.

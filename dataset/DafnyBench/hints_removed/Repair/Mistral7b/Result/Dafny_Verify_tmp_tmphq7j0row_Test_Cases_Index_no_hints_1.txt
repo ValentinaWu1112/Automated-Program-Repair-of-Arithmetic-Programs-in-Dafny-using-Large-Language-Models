@@ -1,0 +1,4 @@
+0
+5
+
+ i := n / 2; //correct line

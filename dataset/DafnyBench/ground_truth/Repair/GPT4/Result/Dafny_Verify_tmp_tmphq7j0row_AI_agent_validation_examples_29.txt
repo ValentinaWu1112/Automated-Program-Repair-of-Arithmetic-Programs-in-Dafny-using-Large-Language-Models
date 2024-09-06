@@ -1,0 +1,4 @@
+0
+177
+
+            a[m, n] := a[m, n] + 1; //buggy line

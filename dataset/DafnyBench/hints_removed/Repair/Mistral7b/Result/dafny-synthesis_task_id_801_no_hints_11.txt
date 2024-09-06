@@ -1,0 +1,4 @@
+0
+15
+
+ count := count + 1; // or count := count + 1 if (a != b && b == c);

@@ -1,0 +1,4 @@
+0
+30
+
+ lo := mid + 1; // Change the sign of the offset to make sure that mid < lo.

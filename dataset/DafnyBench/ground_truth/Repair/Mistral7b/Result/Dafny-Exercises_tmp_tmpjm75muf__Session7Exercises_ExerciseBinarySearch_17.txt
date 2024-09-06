@@ -1,0 +1,4 @@
+0
+22
+
+ p := c - 1; //empty case: c-1 contains the last element less or equal than elem

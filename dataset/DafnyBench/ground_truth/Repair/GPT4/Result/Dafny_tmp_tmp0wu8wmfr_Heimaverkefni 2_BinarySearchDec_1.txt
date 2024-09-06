@@ -1,0 +1,4 @@
+0
+32
+
+var m := i + (j - i) / 2; //buggy line

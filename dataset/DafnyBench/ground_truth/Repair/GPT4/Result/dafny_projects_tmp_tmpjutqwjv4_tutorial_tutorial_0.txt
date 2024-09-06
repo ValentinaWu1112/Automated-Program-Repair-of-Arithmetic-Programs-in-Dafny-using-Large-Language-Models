@@ -1,0 +1,4 @@
+0
+20
+
+    a, b := b, a + b; //buggy line

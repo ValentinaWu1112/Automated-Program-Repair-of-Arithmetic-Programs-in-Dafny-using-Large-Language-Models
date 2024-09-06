@@ -1,0 +1,4 @@
+0
+55
+
+    r := r + a[i]; //buggy line

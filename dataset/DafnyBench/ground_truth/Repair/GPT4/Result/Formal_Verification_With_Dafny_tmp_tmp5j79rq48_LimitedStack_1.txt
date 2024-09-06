@@ -1,0 +1,4 @@
+1
+71
+
+top := top + 1; //buggy line

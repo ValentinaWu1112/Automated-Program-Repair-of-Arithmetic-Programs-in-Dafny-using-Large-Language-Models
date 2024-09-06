@@ -1,0 +1,4 @@
+1
+64
+
+ visited := visited - multiset{qAct} + multiset{oldIndex};

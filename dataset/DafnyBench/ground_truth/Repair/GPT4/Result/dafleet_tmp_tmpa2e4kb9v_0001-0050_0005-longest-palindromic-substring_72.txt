@@ -1,0 +1,4 @@
+1
+383
+
+        ghost var i', j' := lo + hi - (r + 1), lo + hi + (r + 1);

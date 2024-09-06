@@ -1,0 +1,4 @@
+0
+24
+
+        var mid: nat := a.Length / 2; //buggy line

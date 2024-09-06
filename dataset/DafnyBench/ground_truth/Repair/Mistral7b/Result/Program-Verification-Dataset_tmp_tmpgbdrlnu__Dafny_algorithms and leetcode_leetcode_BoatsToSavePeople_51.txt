@@ -1,0 +1,4 @@
+0
+113
+
+ lower := lower + 1; // instead of lower -= 0;

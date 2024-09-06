@@ -1,0 +1,3 @@
+0
+
+ area := baseEdge * (baseEdge + 2 * height);

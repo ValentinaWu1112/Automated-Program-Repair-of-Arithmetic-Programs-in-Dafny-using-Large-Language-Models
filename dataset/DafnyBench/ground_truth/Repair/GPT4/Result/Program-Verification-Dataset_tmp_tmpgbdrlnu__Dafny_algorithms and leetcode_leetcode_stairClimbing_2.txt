@@ -1,0 +1,4 @@
+0
+207
+
+    ghost var sumSet := stepForward + stepTwoForward;

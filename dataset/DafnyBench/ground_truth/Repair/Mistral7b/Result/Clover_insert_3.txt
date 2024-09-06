@@ -1,0 +1,4 @@
+0
+18
+
+ i := i - 1; // Corrected line. The minus sign is missing in the original code.

@@ -1,0 +1,4 @@
+0
+127
+
+    ghost var m', n' := m / 2, n / 2; //buggy line

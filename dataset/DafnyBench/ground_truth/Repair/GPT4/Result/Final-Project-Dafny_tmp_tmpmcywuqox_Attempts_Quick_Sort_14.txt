@@ -1,0 +1,4 @@
+0
+68
+
+return Seq_1' + [Seq[0]] + Seq_2'; //buggy line

@@ -1,0 +1,4 @@
+0
+5
+
+    number := n * (7 * n - 5) / 2; //buggy line

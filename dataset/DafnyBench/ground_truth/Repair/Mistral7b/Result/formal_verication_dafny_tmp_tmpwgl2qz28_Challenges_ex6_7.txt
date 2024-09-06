@@ -1,0 +1,4 @@
+1
+50
+
+ if s[i] != u[i] && u[i] in s {c := c + 1;} //corrected

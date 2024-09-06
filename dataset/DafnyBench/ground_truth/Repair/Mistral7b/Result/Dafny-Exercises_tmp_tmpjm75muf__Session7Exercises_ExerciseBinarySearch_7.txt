@@ -1,0 +1,4 @@
+1
+17
+
+ var m := (c + f) / 2; //fixed line

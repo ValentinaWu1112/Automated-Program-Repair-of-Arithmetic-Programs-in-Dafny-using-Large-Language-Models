@@ -1,0 +1,4 @@
+0
+11
+
+    var low, high := 0, arr.Length - 1; //buggy line

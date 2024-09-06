@@ -1,0 +1,4 @@
+0
+76
+
+rest := rest - multiset{x};

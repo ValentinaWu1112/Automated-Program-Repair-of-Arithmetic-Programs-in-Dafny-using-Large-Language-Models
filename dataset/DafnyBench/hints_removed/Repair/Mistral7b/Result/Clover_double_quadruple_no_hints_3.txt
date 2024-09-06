@@ -1,0 +1,6 @@
+0
+4
+
+ a := 2 * x; // divide by x before multiplying
+
+b := 2 * a;

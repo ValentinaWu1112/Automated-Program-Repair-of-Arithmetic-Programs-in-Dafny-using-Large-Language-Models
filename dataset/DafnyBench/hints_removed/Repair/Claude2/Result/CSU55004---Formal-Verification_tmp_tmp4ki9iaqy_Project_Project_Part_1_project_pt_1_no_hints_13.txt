@@ -1,0 +1,6 @@
+0
+90
+
+
+
+//This method should return the natural number len which is equal to the length of the longest common substring of str1 and str2.

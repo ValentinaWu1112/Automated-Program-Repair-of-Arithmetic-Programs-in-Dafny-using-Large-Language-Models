@@ -1,0 +1,5 @@
+0
+55
+
+ sum := q[i] + q[j]; // buggy line should be
+sum := q[i] + q[j];

@@ -1,0 +1,4 @@
+0
+16
+
+ return x + 1.0; // for real numbers, subtraction may not result in the same sign as the original number, so

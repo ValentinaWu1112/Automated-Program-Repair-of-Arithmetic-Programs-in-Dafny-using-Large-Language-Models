@@ -1,0 +1,4 @@
+0
+193
+
+	var middle := low + (high - low) / 2; //buggy line

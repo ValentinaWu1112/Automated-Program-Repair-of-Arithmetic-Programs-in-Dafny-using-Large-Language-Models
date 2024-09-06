@@ -1,0 +1,4 @@
+0
+21
+
+ z := x / (42 - y) ; // instead of z := x * (42 - y) ; on the buggy

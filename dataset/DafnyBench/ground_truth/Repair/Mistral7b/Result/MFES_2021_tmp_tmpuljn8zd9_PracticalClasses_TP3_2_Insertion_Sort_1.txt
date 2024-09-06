@@ -1,0 +1,4 @@
+0
+22
+
+ j := j - 1; //buggy line corrected to j -= 1;

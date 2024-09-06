@@ -1,0 +1,4 @@
+1
+36
+
+ i.val := i.val + 1; // should be i.val < n instead of i.val < n in the while

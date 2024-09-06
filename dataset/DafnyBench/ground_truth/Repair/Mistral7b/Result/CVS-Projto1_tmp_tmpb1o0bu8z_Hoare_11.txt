@@ -1,0 +1,4 @@
+2
+76
+
+ s := s + ll.head; // Corrected line

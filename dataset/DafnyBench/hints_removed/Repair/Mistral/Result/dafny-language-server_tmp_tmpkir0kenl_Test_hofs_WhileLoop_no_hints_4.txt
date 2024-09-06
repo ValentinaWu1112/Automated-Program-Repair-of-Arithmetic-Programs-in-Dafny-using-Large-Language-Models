@@ -1,0 +1,4 @@
+0
+
+ while i < n //buggy line
+while i < n //fixed line

@@ -1,0 +1,4 @@
+0
+56
+
+    i := i + 1;            // the step from i to i+1

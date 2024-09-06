@@ -1,0 +1,4 @@
+0
+133
+
+ i := i - 1; // Instead of i := i + 0; to decrease the value of i in each iteration.

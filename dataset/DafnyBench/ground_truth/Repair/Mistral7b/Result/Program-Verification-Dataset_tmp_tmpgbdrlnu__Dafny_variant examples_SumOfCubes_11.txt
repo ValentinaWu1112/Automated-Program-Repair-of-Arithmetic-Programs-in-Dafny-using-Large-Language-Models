@@ -1,0 +1,4 @@
+0
+40
+
+ k := k + 1; // corrected line
