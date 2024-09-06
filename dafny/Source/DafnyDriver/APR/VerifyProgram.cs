@@ -100,13 +100,11 @@ public class VerifyProgram {
     var ents = progStmt.GetEntailmentStateConditions();
     var failMeth = failMethod.Distinct().ToList();
     failMeth.RemoveAll(obj => !obj.FullDafnyName.Contains("check", StringComparison.OrdinalIgnoreCase));
-    /*var failMethOrd = failMeth.OrderBy(obj => 
+    var failMethOrd = failMeth.OrderBy(obj => 
     {
       int numero = int.Parse(obj.FullDafnyName.Split('_')[1]);
       return numero;
-    }).ToList();*/
-    
-     var failMethOrd = failMeth.OrderBy(x => x.FullDafnyName).ToList();
+    }).ToList();
      
      if (failMethOrd.Count <= 0) { 
        return;
