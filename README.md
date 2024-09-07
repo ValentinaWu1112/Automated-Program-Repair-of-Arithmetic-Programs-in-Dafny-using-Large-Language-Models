@@ -48,6 +48,8 @@ To get started with this project, follow these steps:
 
 4. **Install Python**: Python is required to run Jupyter notebooks. Make sure Python is installed and set up on your system.
 
+5. **Install Z3**: Z3 is a theorem prover used for verification. Follow the installation instructions at [Z3 Installation](https://github.com/Z3Prover/z3).
+
 ## Local Models and API Keys
 
 ### Local Models
@@ -61,8 +63,56 @@ For running local LLMs, you can use the following models:
 
 To use GPT-4, you need an API key. Make sure to obtain your API key from the service provider and set it up according to their documentation. This key will be required to make API requests and interact with GPT-4.
 
+## Instructions to Run the Program
 
-## Instructions
+1. **Install Dependencies**  
+   After installing the required tools, ensure that Z3 is placed in the `Binaries` directory within the [dafny](dafny) directory. If the `Binaries` directory does not exist, create it inside the [dafny](dafny) directory and place Z3 there.
+
+2. **Configure Models**
+ 
+    2.1 Using Local Models
+
+    - Choose one of the local models described in [Local Models](#local-models).
+    - Install the local model in LM Studio.
+    - In LM Studio, select the installed model and click 'Start Server' in the Local Server tab.
+    - Extract the base_url, API key, and model name from the example `chat(python)` provided by LM Studio.
+    - Open [APR.cs](dafny\Source\DafnyDriver\APR\APR.cs) and change to the appropriate model. 
+    - Update the url, model name, and API key in the model configuration. For example, if you are using the Llama model, update the information in [RepairLlama3.cs](dafny\Source\DafnyDriver\APR\Model\RepairLlama3.cs). Currently, the setup is model = "LM Studio Community/Meta-Llama-3-8B-Instruct-GGUF" and the model is initialized with Models = new APIModels(model, "lm-studio", "http://localhost:1234/v1"). Verify this information in LM Studio and adjust it accordingly if it differs.
+
+    2.2 Using GPT-4 Model
+    - To use the GPT-4 model, you will need an API Key. Set this key as an environment variable.
+    - In [APR.cs](dafny\Source\DafnyDriver\APR\APR.cs), select [RepairGPT4o](dafny\Source\DafnyDriver\APR\Model\RepairGPT4o.cs((dafny\Source\DafnyDriver\APR\Model\RepairGPT4o.cs) as your model.
+
+### With Rider
+
+3. **Configure Rider**  
+   Open Rider and select the solution file `Dafny.sln`. 
+   - Go to the 'Run Configuration' settings.
+   - Set the 'Program arguments' to:
+     ```
+     verify --solver-path "Path\To\dafny\Binaries\z3\bin\z3.exe" --verification-time-limit "20" "Path\To\DafnyProgram.dfy"
+     ```
+
+4. **Run the Project**  
+   Click the 'Run' button at the bottom of Rider and select 'Dafny' to execute the program.
+
+### Without Rider
+
+3. **Build the Program**  
+   Navigate to the [dafny](dafny) directory and build the program.
+
+4. **Run the Command**  
+   Use the following command to run the program:
+
+   ```
+   $DAFNY_EXEC" verify --solver-path "$SOLVER_PATH" --verification-time-limit 20 "$file
+   ```
+
+    - Set `DAFNY_EXEC` to the path of `Dafny.exe`, e.g., `/Path/To/dafny/Binaries/Dafny.exe`.
+    - Set `SOLVER_PATH` to the path of `z3.exe`, e.g., `/Path/To/dafny/Binaries/z3/bin/z3.exe`
+    - Replace `"$file"` with the path to your Dafny program file.
+
+## Procedure for Dataset Preparation and Result 
 
 To run the program using the hints_removed dataset:
 
