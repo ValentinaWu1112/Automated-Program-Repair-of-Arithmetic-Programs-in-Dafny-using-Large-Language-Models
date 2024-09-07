@@ -1,0 +1,4 @@
+0
+15
+
+ j := i + 1; // corrected line. The buggy line was assigning j the same value as i, causing an infinite loop

@@ -1,0 +1,4 @@
+0
+14
+
+ fact := Factorial(n % 10);

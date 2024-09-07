@@ -1,0 +1,4 @@
+0
+103
+
+ a[n] := a[n] + 1; // Change subtraction to addition.

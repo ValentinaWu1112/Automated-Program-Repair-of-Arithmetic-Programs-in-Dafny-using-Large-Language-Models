@@ -1,0 +1,4 @@
+0
+22
+
+ n := n + 1; // Change the sign to make it increment instead of decrement.

@@ -1,0 +1,4 @@
+1
+26
+
+ s := s + a[aux]; // instead of s := s - a[aux]

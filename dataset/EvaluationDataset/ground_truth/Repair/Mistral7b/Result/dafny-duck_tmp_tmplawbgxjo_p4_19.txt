@@ -1,0 +1,4 @@
+0
+40
+
+ index := index + 1; // instead of index := index - 0;

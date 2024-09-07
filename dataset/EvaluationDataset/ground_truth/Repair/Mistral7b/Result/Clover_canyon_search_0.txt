@@ -1,0 +1,4 @@
+0
+20
+
+ m := m + 1; // Change sign to increment index instead of decrementing it.

@@ -1,0 +1,1 @@
+out-parameter 'oddIndex', which is subject to definite-assignment rules, might be uninitialized at this return point

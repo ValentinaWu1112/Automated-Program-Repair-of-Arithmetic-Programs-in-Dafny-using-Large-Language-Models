@@ -1,0 +1,4 @@
+1
+60
+
+ var m := (c + f) / 2; // corrected line

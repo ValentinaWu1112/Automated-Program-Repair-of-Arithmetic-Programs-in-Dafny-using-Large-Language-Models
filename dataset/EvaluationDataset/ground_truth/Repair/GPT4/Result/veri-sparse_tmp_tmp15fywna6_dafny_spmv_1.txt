@@ -1,0 +1,4 @@
+0
+25
+
+var N: nat := X_pos.Length - 1;

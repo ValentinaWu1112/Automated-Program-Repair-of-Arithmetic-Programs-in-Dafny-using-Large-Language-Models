@@ -1,0 +1,4 @@
+0
+12
+
+sumCubes := sumCubes + i * i * i; //buggy line

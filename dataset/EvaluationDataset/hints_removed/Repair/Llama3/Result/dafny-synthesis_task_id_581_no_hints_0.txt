@@ -1,0 +1,4 @@
+1
+6
+
+area := baseEdge * baseEdge + 2 * baseEdge * height;

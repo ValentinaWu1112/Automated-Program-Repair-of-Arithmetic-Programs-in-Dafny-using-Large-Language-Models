@@ -1,0 +1,4 @@
+2
+9
+
+ r := 3 * x; // Replace the buggy line with multiplication to ensure r equals 3 times x.

@@ -1,0 +1,5 @@
+2
+40
+
+            ys[j] := xs[i]; //buggy line
+            j := j + 1;

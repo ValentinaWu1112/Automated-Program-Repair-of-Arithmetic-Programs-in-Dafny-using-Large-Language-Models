@@ -1,0 +1,4 @@
+0
+76
+
+    cauda := cauda + 1; //buggy line

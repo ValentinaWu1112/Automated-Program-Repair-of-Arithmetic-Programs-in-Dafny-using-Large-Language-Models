@@ -1,0 +1,5 @@
+0
+37
+
+ k := k + 1; //buggy line
+k := k - 0; //corrected line

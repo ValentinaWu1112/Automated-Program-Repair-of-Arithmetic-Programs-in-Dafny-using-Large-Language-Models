@@ -1,0 +1,4 @@
+2
+54
+
+ghost var new_t := t - {f(y)};

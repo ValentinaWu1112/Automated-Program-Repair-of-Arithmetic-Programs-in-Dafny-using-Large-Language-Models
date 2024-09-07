@@ -1,0 +1,4 @@
+0
+31
+
+ j := j - 1; // replace with j -= 1;

@@ -1,0 +1,4 @@
+0
+21
+
+x, y := y, x + y; //multiplas atribuições

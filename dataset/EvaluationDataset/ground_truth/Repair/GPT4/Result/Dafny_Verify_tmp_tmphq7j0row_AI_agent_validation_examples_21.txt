@@ -1,0 +1,4 @@
+0
+119
+
+c, k, m := c + k, k + m, m + 6;  //buggy line

@@ -1,0 +1,4 @@
+0
+26
+
+ i := i + 1; // replace with i := i - 1

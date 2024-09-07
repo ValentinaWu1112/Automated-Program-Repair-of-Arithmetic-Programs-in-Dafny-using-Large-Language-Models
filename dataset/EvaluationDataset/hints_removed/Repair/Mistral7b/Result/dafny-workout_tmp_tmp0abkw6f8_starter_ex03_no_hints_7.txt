@@ -1,0 +1,4 @@
+0
+16
+
+ return x + 1.0; // for real numbers, subtracting a small positive number instead of adding a large one may ensure non

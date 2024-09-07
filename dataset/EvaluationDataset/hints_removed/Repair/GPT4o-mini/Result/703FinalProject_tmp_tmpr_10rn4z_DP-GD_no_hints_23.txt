@@ -1,0 +1,4 @@
+0
+31
+
+thetha[t + 1] := thetha[t] + summation_gradient;

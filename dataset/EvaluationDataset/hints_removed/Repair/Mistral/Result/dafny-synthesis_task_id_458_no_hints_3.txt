@@ -1,0 +1,6 @@
+0
+
+ Here is the corrected line:
+```
+area := length * width;
+```

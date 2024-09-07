@@ -1,0 +1,4 @@
+0
+103
+
+ a[n] := a[n] + 1; // Corrected line: increment the original array instead of assigning a new

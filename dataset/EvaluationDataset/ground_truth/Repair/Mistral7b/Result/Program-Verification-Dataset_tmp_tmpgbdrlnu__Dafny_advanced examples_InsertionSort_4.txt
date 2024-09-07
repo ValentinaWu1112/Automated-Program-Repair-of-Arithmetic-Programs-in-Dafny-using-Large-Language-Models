@@ -1,0 +1,4 @@
+0
+27
+
+ down := down - 1; // corrected the increment from +1 to -1

@@ -1,0 +1,4 @@
+0
+142
+
+s := s + k; //buggy line

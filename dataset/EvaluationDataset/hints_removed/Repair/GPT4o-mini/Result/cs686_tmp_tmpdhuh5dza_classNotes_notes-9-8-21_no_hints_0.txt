@@ -1,0 +1,4 @@
+0
+62
+
+count := count + 1; //buggy line

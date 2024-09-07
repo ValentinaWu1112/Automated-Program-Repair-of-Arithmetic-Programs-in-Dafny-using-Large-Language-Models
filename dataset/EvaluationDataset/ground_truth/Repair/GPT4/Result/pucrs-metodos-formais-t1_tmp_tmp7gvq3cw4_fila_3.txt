@@ -1,0 +1,4 @@
+1
+75
+
+    a[cauda] := e;  cauda := cauda + 1;

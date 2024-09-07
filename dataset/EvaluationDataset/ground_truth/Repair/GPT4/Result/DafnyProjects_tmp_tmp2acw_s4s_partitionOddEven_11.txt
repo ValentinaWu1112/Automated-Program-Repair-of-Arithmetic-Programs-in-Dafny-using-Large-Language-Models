@@ -1,0 +1,4 @@
+2
+18
+
+        if even(a[j]) { j := j - 1; } //buggy line

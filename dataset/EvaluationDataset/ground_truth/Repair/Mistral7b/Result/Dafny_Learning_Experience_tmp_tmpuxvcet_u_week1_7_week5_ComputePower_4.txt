@@ -1,0 +1,4 @@
+0
+22
+
+ i := i + 1; // Decrementing i in the loop instead of decrementing it before the loop.

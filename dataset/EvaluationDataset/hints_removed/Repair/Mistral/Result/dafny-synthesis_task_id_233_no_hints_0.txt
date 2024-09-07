@@ -1,0 +1,3 @@
+0
+
+ area := 2.0 * (radius * height) * 3.14;

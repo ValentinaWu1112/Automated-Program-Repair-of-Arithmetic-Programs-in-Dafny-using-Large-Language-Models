@@ -1,0 +1,4 @@
+0
+26
+
+  var i := |s|; //buggy line

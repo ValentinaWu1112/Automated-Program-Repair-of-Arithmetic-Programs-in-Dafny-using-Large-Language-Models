@@ -1,0 +1,4 @@
+0
+26
+
+ i := i + 1; // corrected loop counter increment

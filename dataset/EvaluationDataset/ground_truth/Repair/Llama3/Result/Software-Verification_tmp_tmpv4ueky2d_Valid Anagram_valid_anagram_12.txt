@@ -1,0 +1,4 @@
+1
+50
+
+t_remaining := t_remaining - temp[remaining := t[remaining]];

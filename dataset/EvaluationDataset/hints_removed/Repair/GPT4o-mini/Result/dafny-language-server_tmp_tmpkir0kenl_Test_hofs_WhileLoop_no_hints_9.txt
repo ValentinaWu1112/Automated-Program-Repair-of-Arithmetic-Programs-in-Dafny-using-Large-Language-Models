@@ -1,0 +1,4 @@
+0
+38
+
+    i.val, r := i.val + 1, r + 1; //buggy line

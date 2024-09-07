@@ -1,0 +1,5 @@
+2
+61
+
+ while (a != M) //buggy line
+while (a < M)

@@ -1,0 +1,6 @@
+0
+13
+
+
+var lastDigit := n % 10;
+

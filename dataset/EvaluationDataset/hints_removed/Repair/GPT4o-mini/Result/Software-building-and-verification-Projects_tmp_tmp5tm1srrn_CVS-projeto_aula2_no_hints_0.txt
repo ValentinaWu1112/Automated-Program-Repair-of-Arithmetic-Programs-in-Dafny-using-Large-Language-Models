@@ -1,0 +1,4 @@
+0
+31
+
+return 1 + aux; //buggy line

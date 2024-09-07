@@ -1,0 +1,4 @@
+1
+26
+
+ i := i + 1; //corrected line

@@ -1,0 +1,4 @@
+0
+24
+
+ var j := f - 1; //fixed line

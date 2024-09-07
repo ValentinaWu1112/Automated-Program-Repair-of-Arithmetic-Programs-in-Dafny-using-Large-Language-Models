@@ -1,0 +1,4 @@
+0
+25
+
+ return temp * temp; // should be: return temp * temp * x;

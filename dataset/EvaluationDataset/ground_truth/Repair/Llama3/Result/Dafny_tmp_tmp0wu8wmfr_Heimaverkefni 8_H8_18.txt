@@ -1,0 +1,4 @@
+2
+69
+
+pre := pre + multiset{kth} + pre';

@@ -1,0 +1,4 @@
+0
+5
+
+ perimeter := 5 * side;

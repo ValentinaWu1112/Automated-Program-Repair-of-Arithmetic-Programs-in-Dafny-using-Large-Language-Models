@@ -1,0 +1,4 @@
+0
+28
+
+s_removed := s_removed + temp[remaining := s[remaining]];

@@ -1,0 +1,4 @@
+0
+38
+
+ aPointer := aPointer + 1; // or aPointer ++; instead of aPointer := aPointer + 0;

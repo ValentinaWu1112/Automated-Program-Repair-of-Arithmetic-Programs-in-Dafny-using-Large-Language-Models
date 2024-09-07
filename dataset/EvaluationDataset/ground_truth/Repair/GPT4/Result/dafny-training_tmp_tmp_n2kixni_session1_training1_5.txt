@@ -1,0 +1,4 @@
+0
+137
+
+            index := index + 1; //buggy line

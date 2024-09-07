@@ -1,0 +1,4 @@
+0
+39
+
+ return last + 1; // changed -1 to +1

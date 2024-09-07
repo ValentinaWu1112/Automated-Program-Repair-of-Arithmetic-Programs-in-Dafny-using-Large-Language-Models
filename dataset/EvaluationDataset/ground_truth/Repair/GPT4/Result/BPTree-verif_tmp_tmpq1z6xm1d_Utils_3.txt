@@ -1,0 +1,4 @@
+0
+131
+
+windowSet := windowSet + {nums[i]};

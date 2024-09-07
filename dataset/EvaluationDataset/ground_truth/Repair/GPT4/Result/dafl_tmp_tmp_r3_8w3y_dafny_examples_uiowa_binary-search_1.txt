@@ -1,0 +1,4 @@
+0
+27
+
+	var mid: nat := (lo + hi) / 2;   assert  lo <= mid < hi ;

@@ -1,0 +1,4 @@
+0
+45
+
+ a := a + 1; // corrected line

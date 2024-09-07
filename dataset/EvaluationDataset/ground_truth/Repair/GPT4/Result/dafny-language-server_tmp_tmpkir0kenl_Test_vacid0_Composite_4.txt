@@ -1,0 +1,4 @@
+0
+132
+
+      p.sum := p.sum + delta; //buggy line

@@ -1,0 +1,4 @@
+0
+70
+
+ Contents := Contents + {t}; //correct line

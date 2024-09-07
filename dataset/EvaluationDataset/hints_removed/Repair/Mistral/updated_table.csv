@@ -1,0 +1,506 @@
+Name,Attempt,Patch,Repaired,Type,Original
+703FinalProject_tmp_tmpr_10rn4z_DP-GD_no_hints_12,3,i := i + 1; //fixed line,True,real_real,i := i + 1;
+703FinalProject_tmp_tmpr_10rn4z_DP-GD_no_hints_13,1,i := i + 1;,True,real_real,i := i + 1;
+703FinalProject_tmp_tmpr_10rn4z_DP-GD_no_hints_20,1,var t :int := iterations;,True,real_real,thetha[t+1] := thetha[t] - learning_rate*summation_gradient;
+703FinalProject_tmp_tmpr_10rn4z_DP-GD_no_hints_24,1,t := t + 1;,True,real_real,t := t+1;
+703FinalProject_tmp_tmpr_10rn4z_DP-GD_no_hints_25,1,t := t + 1;,True,real_real,t := t+1;
+703FinalProject_tmp_tmpr_10rn4z_gaussian_no_hints_4,1,"while (i < size) //buggy line
+while (i < size)",True,array(real),i := i+1;
+703FinalProject_tmp_tmpr_10rn4z_gaussian_no_hints_5,1,i := i + 1;,True,array(real),i := i+1;
+Clover_avg_no_hints_0,1,avg := (a + b) / 2;,True,int,avg:= (a + b) / 2;
+Clover_avg_no_hints_1,1,avg := (a + b) / 2;,True,int,avg:= (a + b) / 2;
+Clover_avg_no_hints_3,1,avg := (a + b) / 2;,True,int,avg:= (a + b) / 2;
+Clover_double_quadruple_no_hints_1,2,a := 2 * x;,True,int_int,a := 2 * x;
+Clover_double_quadruple_no_hints_4,1,b := 4 * x;,True,int_int,b := 2 * a;
+Clover_double_quadruple_no_hints_5,1,b := 4 * x;,True,int_int,b := 2 * a;
+Clover_multi_return_no_hints_0,1,more := x + y;,True,int_int,more := x + y;
+Clover_multi_return_no_hints_2,1,"more := x + y;
+less := x - y;",True,int_int,more := x + y;
+Clover_multi_return_no_hints_3,1,more := x + y;,True,int_int,more := x + y;
+Clover_multi_return_no_hints_4,2,less := x - y;,True,int_int,less := x - y;
+Clover_multi_return_no_hints_6,1,less := x - y;,True,int_int,less := x - y;
+Clover_multi_return_no_hints_7,2,less := x - y;,True,int_int,less := x - y;
+Clover_swap_arith_no_hints_10,1,x := y + x;,True,int_int,x := y + x;
+Clover_swap_arith_no_hints_11,2,x := y + x;,True,int_int,x := y + x;
+Clover_triple2_no_hints_13,1,r:= x-y;,True,int,var y:=2*x;
+Clover_triple2_no_hints_18,3,r := 3*x;,True,int,r:= x+y;
+Clover_triple2_no_hints_5,3,r:= a+b;,True,int,"var a,b := 2*x, 4*x;"
+Clover_triple2_no_hints_8,2,r := 3*x;,True,int,r:=(a+b)/2;
+Clover_triple2_no_hints_9,1,r := (a + b) / 2;,True,int,r:=(a+b)/2;
+Clover_triple3_no_hints_1,1,r:=x+2*x;,True,int,var y:=2*x;
+Clover_triple3_no_hints_7,3,r := y + x;,True,int,r:= x+y;
+Clover_triple4_no_hints_4,1,r := y + x;,True,int,r := y+x;
+Clover_triple_no_hints_0,3,r := 3 * x;,True,int,r:= x*3;
+Clover_triple_no_hints_1,3,r := x * 3;,True,int,r:= x*3;
+Clover_triple_no_hints_3,1,r := x * 3;,True,int,r:= x*3;
+Clover_update_array_no_hints_0,1,a[4] := a[4] + 3;,True,void,a[4] := a[4] + 3;
+Clover_update_array_no_hints_1,2,"```
+a[4] := a[4] + 3;
+```",True,void,a[4] := a[4] + 3;
+Clover_update_array_no_hints_3,2,a[4] := a[4] + 3;,True,void,a[4] := a[4] + 3;
+cs245-verification_tmp_tmp0h_nxhqp_Assignments_simple_no_hints_1,3,x := y + 1;,True,int,x := y + 1;
+cs245-verification_tmp_tmp0h_nxhqp_SortingIssues_BubbleSortCode_no_hints_1,1,j := j + 1;,True,void,j := j+1;
+cs245-verification_tmp_tmp0h_nxhqp_SortingIssues_BubbleSortCode_no_hints_3,2,j := j + 1; // Corrected buggy line,True,void,j := j+1;
+cs357_tmp_tmpn4fsvwzs_lab7_question2_no_hints_0,1,var a := x + 1;,True,int,var a:= x+1;
+cs357_tmp_tmpn4fsvwzs_lab7_question2_no_hints_1,2,var a := x + 1;,True,int,var a:= x+1;
+cs357_tmp_tmpn4fsvwzs_lab7_question2_no_hints_3,3,var a := x + 1 - 0;,True,int,var a:= x+1;
+cs686_tmp_tmpdhuh5dza_classNotes_notes-9-8-21_no_hints_1,2,count := count + 1;,True,bool_int,count := count + 1;
+CSU55004---Formal-Verification_tmp_tmp4ki9iaqy_Project_Project_Part_1_project_pt_1_no_hints_15,1,"//This method should return the natural number len which is equal to the length of the longest common substring of str1 and str2. Note that every two strings have a common substring of length zero.
+//method maxCommonSubstringLength(str1:string, str2:string) returns(len:nat)",True,bool,i:=i+1;
+CVS-Projto1_tmp_tmpb1o0bu8z_searchSort_no_hints_1,3,//fixed line: while p < c {,True,bool,p := p + 1;
+CVS-Projto1_tmp_tmpb1o0bu8z_searchSort_no_hints_11,2,"pos := -1; //buggy line
+
+return pos;",True,int,p:= p +1;
+CVS-Projto1_tmp_tmpb1o0bu8z_searchSort_no_hints_3,3,"while p < c //buggy line
+while p < c && p < a.Length",True,bool,p := p + 1;
+CVS-Projto1_tmp_tmpb1o0bu8z_searchSort_no_hints_8,1,p := p + 1;,True,int,p:= p +1;
+dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_DividedConstructors_no_hints_11,2,a := a - a + b;,True,void,a := a + b;
+dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_SharedDestructorsCompile_no_hints_3,2,i := i + 1;,True,void,i := i + 1;
+dafny-exercise_tmp_tmpouftptir_filter_no_hints_2,2,var setA: set<char> := set x | x in a && x in b;,True,set(char),c := setA * b;
+dafny-language-server_tmp_tmpkir0kenl_Test_hofs_WhileLoop_no_hints_0,1,"while i.val < n && i.val < n //buggy line
+
+//changed to:
+while i.val < n && i.val <= n //changed condition for loop",True,int,i.val := i.val + 1;
+dafny-language-server_tmp_tmpkir0kenl_Test_hofs_WhileLoop_no_hints_1,2,i.val := i.val + 1;,True,int,i.val := i.val + 1;
+dafny-language-server_tmp_tmpkir0kenl_Test_hofs_WhileLoop_no_hints_4,1,"while i < n //buggy line
+while i < n //fixed line",True,int,i := i + 1;
+dafny-language-server_tmp_tmpkir0kenl_Test_hofs_WhileLoop_no_hints_7,2,"while i < n //buggy line
+while i < n",True,int,i := i + 1;
+dafny-language-server_tmp_tmpkir0kenl_Test_hofs_WhileLoop_no_hints_8,1,"while i.val < n //buggy line
+while i.val < n && i.val - 1 >= 0 //fixed line",True,int,"i.val, r := i.val + 1, r + 1;"
+dafny-learn_tmp_tmpn94ir40q_R01_functions_no_hints_0,1,val2 := val + val;,True,int,val2 := 2 * val;
+dafny-learn_tmp_tmpn94ir40q_R01_functions_no_hints_1,2,val2 := 2 * val;,True,int,val2 := 2 * val;
+dafny-synthesis_task_id_127_no_hints_0,1,result := a * b;,True,int,result := a * b;
+dafny-synthesis_task_id_127_no_hints_2,1,result := a * b;,True,int,result := a * b;
+dafny-synthesis_task_id_127_no_hints_3,2,result := a * b;,True,int,result := a * b;
+dafny-synthesis_task_id_139_no_hints_0,2,circumference := 2.0 * 3.14159265358979323846 * radius;,True,real,circumference := 2.0 * 3.14159265358979323846 * radius;
+dafny-synthesis_task_id_139_no_hints_3,1,circumference := 2.0 * 3.14159265358979323846 * radius;,True,real,circumference := 2.0 * 3.14159265358979323846 * radius;
+dafny-synthesis_task_id_14_no_hints_0,1,volume := (base * height * length) / 2;,True,int,volume := (base * height * length) / 2;
+dafny-synthesis_task_id_14_no_hints_1,2,volume := base * height * length / 2;,True,int,volume := (base * height * length) / 2;
+dafny-synthesis_task_id_14_no_hints_3,1,volume := (base * height * length) * 1 / 2;,True,int,volume := (base * height * length) / 2;
+dafny-synthesis_task_id_171_no_hints_0,1,perimeter := 5 * side;,True,int,perimeter := 5 * side;
+dafny-synthesis_task_id_171_no_hints_3,1,perimeter := 5 * side;,True,int,perimeter := 5 * side;
+dafny-synthesis_task_id_17_no_hints_0,1,perimeter := 4 * side;,True,int,perimeter := 4 * side;
+dafny-synthesis_task_id_17_no_hints_1,3,perimeter := 4 * side;,True,int,perimeter := 4 * side;
+dafny-synthesis_task_id_17_no_hints_3,2,perimeter := 4 * side;,True,int,perimeter := 4 * side;
+dafny-synthesis_task_id_233_no_hints_0,1,area := 2.0 * (radius * height) * 3.14;,True,real,area := 2.0 * (radius * height) * 3.14;
+dafny-synthesis_task_id_233_no_hints_3,1,area := 2.0 * radius * height * 3.14;,True,real,area := 2.0 * (radius * height) * 3.14;
+dafny-synthesis_task_id_234_no_hints_0,2,volume := size * size * size;,True,int,volume := size * size * size;
+dafny-synthesis_task_id_234_no_hints_3,1,volume := size * size * size;,True,int,volume := size * size * size;
+dafny-synthesis_task_id_238_no_hints_0,1,count := (|s| * (|s| + 1)) / 2;,True,int,count := (|s| * (|s| + 1)) / 2;
+dafny-synthesis_task_id_238_no_hints_3,1,count := |s| * (|s| + 1) / 2;,True,int,count := (|s| * (|s| + 1)) / 2;
+dafny-synthesis_task_id_264_no_hints_0,3,dogYears := 7 * humanYears;,True,int,dogYears := 7 * humanYears;
+dafny-synthesis_task_id_264_no_hints_1,1,dogYears := 7 * humanYears;,True,int,dogYears := 7 * humanYears;
+dafny-synthesis_task_id_264_no_hints_3,2,dogYears := 7 * humanYears;,True,int,dogYears := 7 * humanYears;
+dafny-synthesis_task_id_266_no_hints_0,1,area := 4 * size * size;,True,int,area := 4 * size * size;
+dafny-synthesis_task_id_266_no_hints_1,2,area := 4 * size * size;,True,int,area := 4 * size * size;
+dafny-synthesis_task_id_266_no_hints_3,1,area := 4 * size * size;,True,int,area := 4 * size * size;
+dafny-synthesis_task_id_268_no_hints_0,1,star := 6 * n * (n - 1) + 1;,True,int,star := 6 * n * (n - 1) + 1;
+dafny-synthesis_task_id_268_no_hints_1,1,star := 6 * n * (n - 1) + 1;,True,int,star := 6 * n * (n - 1) + 1;
+dafny-synthesis_task_id_268_no_hints_3,1,star := 6 * n * (n - 1) + 1;,True,int,star := 6 * n * (n - 1) + 1;
+dafny-synthesis_task_id_276_no_hints_0,1,volume := 3.14159265359 * radius * radius * height;,True,real,volume := 3.14159265359 * radius * radius * height;
+dafny-synthesis_task_id_276_no_hints_2,1,volume := 3.14159265359 * radius * radius * height;,True,real,volume := 3.14159265359 * radius * radius * height;
+dafny-synthesis_task_id_276_no_hints_3,1,volume := 3.14159265359 * radius * radius * height;,True,real,volume := 3.14159265359 * radius * radius * height;
+dafny-synthesis_task_id_292_no_hints_0,2,result := a / b;,True,int,result := a / b;
+dafny-synthesis_task_id_292_no_hints_3,1,result := a / b;,True,int,result := a / b;
+dafny-synthesis_task_id_312_no_hints_0,1,volume := (1.0 / 3.0) * (3.14159265358979323846) * radius * radius * height;,True,real,volume := (1.0/3.0) * (3.14159265358979323846) * radius * radius * height;
+dafny-synthesis_task_id_312_no_hints_2,1,volume := 1.0 / 3.0 * 3.14159265358979323846 * (radius * radius) * height;,True,real,volume := (1.0/3.0) * (3.14159265358979323846) * radius * radius * height;
+dafny-synthesis_task_id_312_no_hints_3,1,volume := (1.0/3.0) * (3.14159265358979323846) * radius * radius * height;,True,real,volume := (1.0/3.0) * (3.14159265358979323846) * radius * radius * height;
+dafny-synthesis_task_id_430_no_hints_3,1,directrix := k - 1.0 / (4.0 * a);,True,real,directrix := k - 1.0 / (4.0 * a);
+dafny-synthesis_task_id_432_no_hints_0,1,median := (a + b) / 2;,True,int,median := (a + b) / 2;
+dafny-synthesis_task_id_432_no_hints_1,2,median := (a + b) / 2;,True,int,median := (a + b) / 2;
+dafny-synthesis_task_id_432_no_hints_3,1,median := (a + b) / 2;,True,int,median := (a + b) / 2;
+dafny-synthesis_task_id_435_no_hints_0,1,d := n % 10;,True,int,d := n % 10;
+dafny-synthesis_task_id_435_no_hints_1,3,d := n % 10;,True,int,d := n % 10;
+dafny-synthesis_task_id_435_no_hints_3,2,d := n % 10;,True,int,d := n % 10;
+dafny-synthesis_task_id_441_no_hints_0,1,area := 6 * size * size;,True,int,area := 6 * size * size;
+dafny-synthesis_task_id_441_no_hints_3,1,area := 6 * size * size;,True,int,area := 6 * size * size;
+dafny-synthesis_task_id_452_no_hints_0,1,"if (costPrice > sellingPrice) {
+    loss := costPrice - sellingPrice; //fixed line
+
+} else {
+    loss := 0;
+}",True,int,loss := costPrice - sellingPrice;
+dafny-synthesis_task_id_452_no_hints_2,3,"//fixed line
+if (costPrice > sellingPrice) {
+    loss := costPrice - sellingPrice;
+} else {
+    loss := 0;
+}",True,int,loss := costPrice - sellingPrice;
+dafny-synthesis_task_id_458_no_hints_0,2,area := length * width;,True,int,area := length * width;
+dafny-synthesis_task_id_458_no_hints_2,1,area := length * width;,True,int,area := length * width;
+dafny-synthesis_task_id_458_no_hints_3,1,"Here is the corrected line:
+```
+area := length * width;
+```",True,int,area := length * width;
+dafny-synthesis_task_id_574_no_hints_0,1,area := 2.0 * 3.14159265358979323846 * radius * (radius + height);,True,real,area := 2.0 * 3.14159265358979323846 * radius * (radius + height);
+dafny-synthesis_task_id_574_no_hints_3,2,area := 2.0 * 3.14159265358979323846 * radius * (radius + height);,True,real,area := 2.0 * 3.14159265358979323846 * radius * (radius + height);
+dafny-synthesis_task_id_577_no_hints_0,2,var lastDigit := n % 10;,True,int,var lastDigit := n % 10;
+dafny-synthesis_task_id_577_no_hints_1,3,fact := Factorial(n % 10);,True,int,var lastDigit := n % 10;
+dafny-synthesis_task_id_577_no_hints_3,3,fact := Factorial(n % 10);,True,int,var lastDigit := n % 10;
+dafny-synthesis_task_id_581_no_hints_0,2,area := baseEdge * baseEdge + 2 * baseEdge * height;,True,int,area := baseEdge * baseEdge + 2 * baseEdge * height;
+dafny-synthesis_task_id_581_no_hints_1,2,area := baseEdge * baseEdge + 2 * baseEdge * height;,True,int,area := baseEdge * baseEdge + 2 * baseEdge * height;
+dafny-synthesis_task_id_581_no_hints_2,1,area := baseEdge * (baseEdge + 2 * height);,True,int,area := baseEdge * baseEdge + 2 * baseEdge * height;
+dafny-synthesis_task_id_586_no_hints_2,2,r := secondPart + firstPart;,True,seq(int),r := secondPart + firstPart;
+dafny-synthesis_task_id_59_no_hints_3,3,octagonalNumber := n * (3 * n - 2);,True,int,octagonalNumber := n * (3 * n - 2);
+dafny-synthesis_task_id_606_no_hints_0,2,radians := degrees * 3.14159265358979323846 / 180.0;,True,real,radians := degrees * 3.14159265358979323846 / 180.0;
+dafny-synthesis_task_id_606_no_hints_3,1,radians := degrees * 3.14159265358979323846 / 180.0;,True,real,radians := degrees * 3.14159265358979323846 / 180.0;
+dafny-synthesis_task_id_61_no_hints_0,1,count := count + 1;,True,int,count := count + 1;
+dafny-synthesis_task_id_61_no_hints_1,3,count := count + 1;,True,int,count := count + 1;
+dafny-synthesis_task_id_622_no_hints_0,1,median := if (a.Length % 2 == 0) then (a[a.Length / 2 - 1] + b[0]) / 2 else a[a.Length / 2];,True,int,median := (a[a.Length / 2 - 1] + b[0]) / 2;
+dafny-synthesis_task_id_622_no_hints_1,2,"if (a.Length % 2 == 0) {
+median := (a[a.Length / 2 - 1] + b[0]) / 2; // corrected line
+} else {
+median := a[a.Length / 2];
+}",True,int,median := (a[a.Length / 2 - 1] + b[0]) / 2;
+dafny-synthesis_task_id_622_no_hints_3,3,"if (a.Length % 2 == 0) {
+median := (a[a.Length / 2 - 1] + b[0]) / 2; //fixed line
+} else {
+median := a[a.Length / 2];
+}",True,int,median := (a[a.Length / 2 - 1] + b[0]) / 2;
+dafny-synthesis_task_id_626_no_hints_3,1,area := radius * radius;,True,int,area := radius * radius;
+dafny-synthesis_task_id_641_no_hints_1,1,number := n * (7 * n - 5) / 2;,True,int,number := n * (7 * n - 5) / 2;
+dafny-synthesis_task_id_801_no_hints_1,2,count := count + 1;,True,int,count := count + 1;
+dafny-synthesis_task_id_801_no_hints_11,1,"if (a != b && b == c) {
+        count := count + 1;
+    }",True,int,count := count + 1;
+dafny-synthesis_task_id_801_no_hints_8,1,"if (a != b && b == c) {
+    count := count + 1;
+}",True,int,count := count + 1;
+dafny-synthesis_task_id_801_no_hints_9,2,"//buggy line corrected to: 
+if (a != b && b == c) {
+    count := count + 1;
+}",True,int,count := count + 1;
+dafny-synthesis_task_id_803_no_hints_0,3,return i * i <= n && i * i != n;,True,bool,i := i + 1;
+dafny-synthesis_task_id_803_no_hints_1,1,while (i * i < n) { i := i + 1; },True,bool,i := i + 1;
+dafny-synthesis_task_id_803_no_hints_3,2,"while (i * i < n)
+```
+i := i + 1;
+```",True,bool,i := i + 1;
+dafny-synthesis_task_id_80_no_hints_0,2,t := n * (n + 1) * (n + 2) / 6;,True,int,t := n * (n + 1) * (n + 2) / 6;
+dafny-synthesis_task_id_80_no_hints_1,1,t := n * (n + 1) * (n + 2) / 6;,True,int,t := n * (n + 1) * (n + 2) / 6;
+dafny-synthesis_task_id_82_no_hints_3,1,volume := 4.0/3.0*3.1415926535*radius*radius*radius;,True,real,volume := 4.0/3.0 * 3.1415926535 * radius * radius * radius;
+dafny-synthesis_task_id_85_no_hints_0,2,area := 4.0 * 3.14159265358979323846 * radius * radius;,True,real,area := 4.0 * 3.14159265358979323846 * radius * radius;
+dafny-synthesis_task_id_85_no_hints_3,1,area := 4.0 * 3.14159265358979323846 * radius * radius;,True,real,area := 4.0 * 3.14159265358979323846 * radius * radius;
+dafny-synthesis_task_id_86_no_hints_0,1,result := 3 * n * (n - 1) + 1;,True,nat,result := 3 * n * (n - 1) + 1;
+dafny-synthesis_task_id_86_no_hints_1,2,result := 3 * n * (n - 1) + 1;,True,nat,result := 3 * n * (n - 1) + 1;
+dafny-synthesis_task_id_86_no_hints_3,1,result := 3 * n * (n - 1) + 1;,True,nat,result := 3 * n * (n - 1) + 1;
+dafny-synthesis_task_id_89_no_hints_1,1,m := n - 1;,True,int,m := n - 1;
+dafny-workout_tmp_tmp0abkw6f8_starter_ex03_no_hints_7,2,return x + 1.0;,True,real,return x + 1.0;
+DafnyProjects_tmp_tmp2acw_s4s_Power_no_hints_3,2,return temp * temp;,True,real,return temp * temp;
+Dafny_Learning_Experience_tmp_tmpuxvcet_u_week1_7_MaxSum_no_hints_0,1,s := x + y;,True,int_int,s := x+y;
+Dafny_Learning_Experience_tmp_tmpuxvcet_u_week8_12_week9_lemma_no_hints_0,2,r := students/tutors;,True,int,r:= students/tutors;
+Dafny_Learning_Experience_tmp_tmpuxvcet_u_week8_12_week9_lemma_no_hints_3,2,r := students/tutors;,True,int,r:= students/tutors;
+Dafny_tmp_tmp0wu8wmfr_tests_F1a_no_hints_4,2,m := (p + q) / 2;,True,int,m := (p+q)/2;
+Dafny_tmp_tmp0wu8wmfr_tests_F1a_no_hints_5,1,m := (p + q) / 2;,True,int,m := (p+q)/2;
+Dafny_tmp_tmp0wu8wmfr_tests_F1a_no_hints_7,3,m := (p + q) / 2;,True,int,m := (p+q)/2;
+Dafny_Verify_tmp_tmphq7j0row_dataset_C_convert_examples_01_no_hints_3,2,while(x <= 100000) x := x + 1;,True,int_int_int_int,x := t1 + t2;
+Dafny_Verify_tmp_tmphq7j0row_dataset_C_convert_examples_23_x_no_hints_4,2,"//buggy line corrected to
+
+sum := sum + i;
+i := i - 1;",True,int_int,i := i + 1;
+Dafny_Verify_tmp_tmphq7j0row_dataset_C_convert_examples_23_x_no_hints_5,2,i := i + 1;,True,int_int,i := i + 1;
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Function_no_hints_1,2,r := 3 * x; //fixed line,True,int,r := 3 * x;
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Function_no_hints_4,1,r := 3 * x;,True,int,r:= 3 * x;
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Function_no_hints_7,1,r := 3 * x;,True,int,r:= 3 * x;
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Ghost_no_hints_24,1,y := a + b;,True,int,y := a + b;
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Ghost_no_hints_27,3,y := b + a;,True,int,y := a + b;
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Ghost_no_hints_6,3,r := x + y;,True,int,r := x + y;
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Ghost_no_hints_9,2,a := 2 * x;,True,int_int,a := 2 * x;
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Index_no_hints_1,1,i := n / 2;,True,int,i := n/2;
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Index_no_hints_4,1,s := x + y;,True,int_int,s := x + y;
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Triple_no_hints_37,2,r := 3 * x;,True,int,var y := x / 2;
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Triple_no_hints_39,2,r := 3*x;,True,int,var y := x / 2;
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Triple_no_hints_43,3,r := 3 * x;,True,int,r := 6 * y;
+Final-Project-Dafny_tmp_tmpmcywuqox_Final_Project_3_no_hints_1,2,"Here is the fixed line:
+```
+return x + 1; //fixed line
+```",True,int,return x + 1;
+Final-Project-Dafny_tmp_tmpmcywuqox_Final_Project_3_no_hints_3,1,return x - 1;,True,int,return x + 1;
+Formal-Methods-Project_tmp_tmphh2ar2xv_BubbleSort_no_hints_1,2,while (j < i-1),True,void,var i := a.Length - 1;
+Formal-Methods-Project_tmp_tmphh2ar2xv_BubbleSort_no_hints_13,2,"The buggy line has been fixed to `while(k > 4) { print a[k], ""\n""; k := k -1; }`.",True,void,"while(k < 5) { print a[k], ""\n""; k := k+1;}"
+Formal-Methods-Project_tmp_tmphh2ar2xv_BubbleSort_no_hints_4,1,j := j + 1;,True,void,j := j + 1;
+Formal-Methods-Project_tmp_tmphh2ar2xv_BubbleSort_no_hints_7,1,j := j + 1;,True,void,j := j + 1;
+Formal_Verification_With_Dafny_tmp_tmp5j79rq48_Counter_no_hints_0,2,value := value + 1;,True,void,value := value + 1;
+Formal_Verification_With_Dafny_tmp_tmp5j79rq48_Counter_no_hints_1,1,value := value + 1;,True,void,value := value + 1;
+Formal_Verification_With_Dafny_tmp_tmp5j79rq48_Counter_no_hints_5,1,value := value - 1;,True,void,value := value - 1 ;
+Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_add_by_one_details_no_hints_0,2,{return x + 1;},True,int,{return x+1;}
+Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_add_by_one_details_no_hints_1,1,{return x + 1;},True,int,{return x+1;}
+Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny4_ClassRefinement_no_hints_0,1,N := N + 1;,True,void,N := N + 1;
+Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny4_ClassRefinement_no_hints_1,1,N := N + 1;,True,void,N := N + 1;
+Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny4_ClassRefinement_no_hints_11,2,N := N + 1;,True,void,N := N + 1;
+Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny4_ClassRefinement_no_hints_7,1,"The buggy line is marked with the comment ""//buggy line"". It appears to be missing a semicolon at the end of the line that creates a new Cell object. Here's the corrected line:
+```
+ghost var repr := Repr - {this} - {c, d}; //buggy line
+```
+becomes:
+```
+ghost var repr := Repr - {this} - {new Cell(0), new Cell(0)};
+```",True,void,"ghost var repr := Repr + {this} + {c,d};"
+Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny4_ClassRefinement_no_hints_8,2,N := old(N) + 1;,True,void,N := N + 1;
+Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny4_ClassRefinement_no_hints_9,1,N := N + 1;,True,void,N := N + 1;
+se2011_tmp_tmp71eb82zt_ass1_ex6_no_hints_3,2,k := n - n % 7;,True,nat,k := n-(n%7);
+se2011_tmp_tmp71eb82zt_ass2_ex2_no_hints_1,1,i := a.Length;,True,int,i := i+1;
+SENG2011_tmp_tmpgk5jq85q_ass1_ex7_no_hints_0,1,indx := indx - step;,True,void,{ indx := indx+step; } // DO NOT CHANGE
+SENG2011_tmp_tmpgk5jq85q_ass1_ex7_no_hints_3,1,indx := (step - indx) + 1;,True,void,{ indx := indx+step; } // DO NOT CHANGE
+t1_MF_tmp_tmpi_sqie4j_exemplos_classes_parte1_contadorV1b_no_hints_0,3,valor := valor + 1;,True,void,valor := valor + 1;
+t1_MF_tmp_tmpi_sqie4j_exemplos_classes_parte1_contadorV1b_no_hints_1,1,valor := valor + 1;,True,void,valor := valor + 1;
+t1_MF_tmp_tmpi_sqie4j_exemplos_classes_parte1_contadorV1b_no_hints_3,1,valor := valor + 1;,True,void,valor := valor + 1;
+t1_MF_tmp_tmpi_sqie4j_exemplos_classes_parte1_contadorV1b_no_hints_5,1,valor := valor - 1;,True,void,valor := valor -1 ;
+stunning-palm-tree_tmp_tmpr84c2iwh_ch1_no_hints_13,,,False,int,r := y - 1;
+cs245-verification_tmp_tmp0h_nxhqp_SortingIssues_BubbleSortCode_no_hints_0,,,False,void,j := j+1;
+703FinalProject_tmp_tmpr_10rn4z_gaussian_no_hints_7,,,False,array(real),i := i+1;
+CSU55004---Formal-Verification_tmp_tmp4ki9iaqy_Project_Project_Part_1_project_pt_1_no_hints_4,,,False,bool,i := i+1;
+Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny1_Queue_no_hints_8,,,False,void,spine := spine + {n};
+Prog-Fun-Solutions_tmp_tmp7_gmnz5f_mockExam2_p3_no_hints_3,,,False,int,r := 2*r;
+dafny-mini-project_tmp_tmpjxr3wzqh_src_project2a_no_hints_11,,,False,void,messages := messages - { m };
+nitwit_tmp_tmplm098gxz_nit_no_hints_31,,,False,nat_nat,carry := (x + y + 1) / b;
+Prog-Fun-Solutions_tmp_tmp7_gmnz5f_mockExam2_p2_no_hints_3,,,False,int_int,r := r - 2*s + 6;
+Clover_triple2_no_hints_4,,,False,int,"var a,b := 2*x, 4*x;"
+Prog-Fun-Solutions_tmp_tmp7_gmnz5f_mockExam2_p2_no_hints_0,,,False,int_int,r := r - 2*s + 6;
+CO3408-Advanced-Software-Modelling-Assignment-2022-23-Part-2-A-Specification-Spectacular_tmp_tmp4pj4p2zx_car_park_no_hints_7,,,False,bool,reservedCarPark := reservedCarPark - {car};
+CO3408-Advanced-Software-Modelling-Assignment-2022-23-Part-2-A-Specification-Spectacular_tmp_tmp4pj4p2zx_car_park_no_hints_11,,,False,int,availableSpaces := (normalSpaces - |carPark|) + (reservedSpaces - |reservedCarPark|) - badParkingBuffer;
+cs245-verification_tmp_tmp0h_nxhqp_SortingIssues_BubbleSortCode_no_hints_7,,,False,void,i := i+1;
+Clover_triple2_no_hints_12,,,False,int,var y:=2*x;
+cs245-verification_tmp_tmp0h_nxhqp_Assignments_simple_no_hints_3,,,False,int,x := y + 1;
+Clover_triple2_no_hints_3,,,False,int,"var a,b := 2*x, 4*x;"
+Clover_triple4_no_hints_1,,,False,int,var y:= x*2;
+Trab1-Metodos-Formais_tmp_tmp_8fa4trr_circular-array_no_hints_8,,,False,int,start := start + 1;
+formal_verication_dafny_tmp_tmpwgl2qz28_Challenges_ex2_no_hints_3,,,False,int,z:= x/(42-y);
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Ghost_no_hints_3,,,False,int,var y := 2 * x;
+CO3408-Advanced-Software-Modelling-Assignment-2022-23-Part-2-A-Specification-Spectacular_tmp_tmp4pj4p2zx_car_park_no_hints_12,,,False,int,availableSpaces := (normalSpaces - |carPark|) - badParkingBuffer;
+dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_DividedConstructors_no_hints_31,,,False,void,a := a + 2*b;
+Formal-Methods-Project_tmp_tmphh2ar2xv_BubbleSort_no_hints_12,,,False,void,"while(k < 5) { print a[k], ""\n""; k := k+1;}"
+CSU55004---Formal-Verification_tmp_tmp4ki9iaqy_Project_Project_Part_1_project_pt_1_no_hints_11,,,False,bool,var n := |str1|-k;
+Trab1-Metodos-Formais_tmp_tmp_8fa4trr_circular-array_no_hints_12,,,False,int,size := size - 1;
+Clover_swap_arith_no_hints_8,,,False,int_int,x := y + x;
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Triple_no_hints_19,,,False,int,"var a, b := 2 * x, 4 * x;"
+nitwit_tmp_tmplm098gxz_nit_no_hints_7,,,False,nat_nat,carry := (n + 1) / b;
+Formal-methods-of-software-development_tmp_tmppryvbyty_Examenes_Beni_Heusel-Benedikt-Ass-1_no_hints_9,,,False,void,var k := (z-1) / 2;
+stunning-palm-tree_tmp_tmpr84c2iwh_ch1_no_hints_0,,,False,int,var y := 2*x;
+dafny-synthesis_task_id_801_no_hints_0,,,False,int,count := count + 1;
+Clover_swap_arith_no_hints_2,,,False,int_int,x := y - x;
+Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny1_Queue_no_hints_4,,,False,void,footprint := footprint + n.footprint;
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Triple_no_hints_16,,,False,int,"var a, b := 2 * x, 4 * x;"
+dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_DividedConstructors_no_hints_24,,,False,void,a := a + b;
+CVS-Projto1_tmp_tmpb1o0bu8z_searchSort_no_hints_9,,,False,int,p:= p +1;
+DafnyProjects_tmp_tmp2acw_s4s_Power_no_hints_0,,,False,real,return temp * temp;
+703FinalProject_tmp_tmpr_10rn4z_DP-GD_no_hints_3,,,False,real_real,var constant:real := (size as real) * tau;
+Clover_swap_arith_no_hints_7,,,False,int_int,y := y - x;
+DafnyProjects_tmp_tmp2acw_s4s_Power_no_hints_6,,,False,real,return temp * temp * x;
+nitwit_tmp_tmplm098gxz_nit_no_hints_4,,,False,nat_nat,carry := (n + 1) / b;
+dafny-synthesis_task_id_82_no_hints_0,,,False,real,volume := 4.0/3.0 * 3.1415926535 * radius * radius * radius;
+Formal-methods-of-software-development_tmp_tmppryvbyty_Examenes_Beni_Heusel-Benedikt-Ass-1_no_hints_7,,,False,void,var k := z/2;
+Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny1_Queue_no_hints_11,,,False,void,spine := spine + {n};
+Clover_triple4_no_hints_0,,,False,int,var y:= x*2;
+dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_DividedConstructors_no_hints_4,,,False,void,"a, c := 50, 2.0 * z;"
+dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_DividedConstructors_no_hints_3,,,False,void,a := a + b;
+CO3408-Advanced-Software-Modelling-Assignment-2022-23-Part-2-A-Specification-Spectacular_tmp_tmp4pj4p2zx_car_park_no_hints_20,,,False,bool,carPark := carPark + {car};
+dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_DividedConstructors_no_hints_12,,,False,void,a := a + 2*b;
+Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula2_no_hints_7,,,False,int,z := x-1;
+CSU55004---Formal-Verification_tmp_tmp4ki9iaqy_Project_Project_Part_1_project_pt_1_no_hints_8,,,False,bool,var n := |str1|-k;
+703FinalProject_tmp_tmpr_10rn4z_DP-GD_no_hints_23,,,False,real_real,thetha[t+1] := thetha[t] - learning_rate*summation_gradient;
+Trab1-Metodos-Formais_tmp_tmp_8fa4trr_circular-array_no_hints_9,,,False,int,start := start + 1;
+Dafny_tmp_tmpmvs2dmry_examples1_no_hints_3,,,False,int_int,more := x + y;
+dafny-synthesis_task_id_59_no_hints_0,,,False,int,octagonalNumber := n * (3 * n - 2);
+dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_DividedConstructors_no_hints_19,,,False,void,a := a + b;
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Ghost_no_hints_12,,,False,int_int,b := 2 * a;
+DafnyProjects_tmp_tmp2acw_s4s_Graph_no_hints_3,,,False,void,V := V + {v};
+Clover_triple3_no_hints_0,,,False,int,var y:=2*x;
+dafny-synthesis_task_id_641_no_hints_3,,,False,int,number := n * (7 * n - 5) / 2;
+CO3408-Advanced-Software-Modelling-Assignment-2022-23-Part-2-A-Specification-Spectacular_tmp_tmp4pj4p2zx_car_park_no_hints_16,,,False,bool,subscriptions := subscriptions + {car};
+Clover_swap_arith_no_hints_0,,,False,int_int,x := y - x;
+CSU55004---Formal-Verification_tmp_tmp4ki9iaqy_Project_Project_Part_1_project_pt_1_no_hints_16,,,False,nat,i := i - 1;
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Triple_no_hints_3,,,False,int,var y := 2 * x;
+dafny-synthesis_task_id_641_no_hints_0,,,False,int,number := n * (7 * n - 5) / 2;
+nitwit_tmp_tmplm098gxz_nit_no_hints_9,,,False,nat,nmax := b - 1;
+Clover_triple2_no_hints_0,,,False,int,"var a,b := 2*x, 4*x;"
+dafny-synthesis_task_id_171_no_hints_1,,,False,int,perimeter := 5 * side;
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Triple_no_hints_31,,,False,int,var y:= 2 * x;
+Trab1-Metodos-Formais_tmp_tmp_8fa4trr_circular-array_no_hints_0,,,False,void,size := size + 1;
+stunning-palm-tree_tmp_tmpr84c2iwh_ch1_no_hints_1,,,False,int,var y := 2*x;
+Clover_triple4_no_hints_7,,,False,int,r := y+x;
+dafny-language-server_tmp_tmpkir0kenl_Test_hofs_WhileLoop_no_hints_5,,,False,int,i := i + 1;
+cs245-verification_tmp_tmp0h_nxhqp_SortingIssues_BubbleSortCode_no_hints_4,,,False,void,i := i+1;
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Triple_no_hints_0,,,False,int,var y := 2 * x;
+dafny-synthesis_task_id_801_no_hints_4,,,False,int,count := count + 1;
+dafny-mini-project_tmp_tmpjxr3wzqh_src_project2a_no_hints_8,,,False,void,messages := messages - { m };
+stunning-palm-tree_tmp_tmpr84c2iwh_ch1_no_hints_4,,,False,int,r := y + x;
+dafny-mini-project_tmp_tmpjxr3wzqh_src_project2a_no_hints_7,,,False,void,messages := { m } + messages;
+dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_DividedConstructors_no_hints_28,,,False,void,a := a + 2*b;
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Ghost_no_hints_8,,,False,int_int,a := 2 * x;
+Clover_swap_arith_no_hints_3,,,False,int_int,x := y - x;
+Prog-Fun-Solutions_tmp_tmp7_gmnz5f_mockExam2_p2_no_hints_4,,,False,int_int,s := s - 3;
+dafny-synthesis_task_id_452_no_hints_3,,,False,int,loss := costPrice - sellingPrice;
+ironsync-osdi2023_tmp_tmpx80antoe_linear-dafny_Test_c++_sets_no_hints_3,,,False,void,var s2:set<seq<uint32>> := s1 - { m1 };
+dafny-learn_tmp_tmpn94ir40q_R01_functions_no_hints_3,,,False,int,val2 := 2 * val;
+dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_DividedConstructors_no_hints_0,,,False,void,a := a + b;
+Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny4_ClassRefinement_no_hints_4,,,False,void,"ghost var repr := Repr + {this} + {c,d};"
+Formal-Methods-Project_tmp_tmphh2ar2xv_BubbleSort_no_hints_0,,,False,void,var i := a.Length - 1;
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Ghost_no_hints_15,,,False,int_int,b := 2 * a;
+Clover_triple4_no_hints_3,,,False,int,var y:= x*2;
+CSU55004---Formal-Verification_tmp_tmp4ki9iaqy_Project_Project_Part_1_project_pt_1_no_hints_5,,,False,bool,i := i+1;
+dafny-synthesis_task_id_430_no_hints_0,,,False,real,directrix := k - 1.0 / (4.0 * a);
+stunning-palm-tree_tmp_tmpr84c2iwh_ch1_no_hints_6,,,False,int,r := y + x;
+stunning-palm-tree_tmp_tmpr84c2iwh_ch1_no_hints_12,,,False,int,r := y - 1;
+formal_verication_dafny_tmp_tmpwgl2qz28_Challenges_ex2_no_hints_4,,,False,int_bool,z:= x/(42-y);
+Prog-Fun-Solutions_tmp_tmp7_gmnz5f_mockExam2_p3_no_hints_1,,,False,int,r := 2*r;
+Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny1_Queue_no_hints_3,,,False,void,footprint := {this} + n.footprint;
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Triple_no_hints_23,,,False,int,"var a, b := 2 * x, 4 * x;"
+Prog-Fun-Solutions_tmp_tmp7_gmnz5f_mockExam2_p2_no_hints_7,,,False,int_int,s := s - 3;
+Prog-Fun-Solutions_tmp_tmp7_gmnz5f_mockExam2_p2_no_hints_1,,,False,int_int,r := r - 2*s + 6;
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Ghost_no_hints_1,,,False,int,var y := 2 * x;
+Formal-methods-of-software-development_tmp_tmppryvbyty_Examenes_Beni_Heusel-Benedikt-Ass-1_no_hints_11,,,False,void,var k := (z-1) / 2;
+dafny-synthesis_task_id_80_no_hints_3,,,False,int,t := n * (n + 1) * (n + 2) / 6;
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Index_no_hints_0,,,False,int,i := n/2;
+se2011_tmp_tmp71eb82zt_ass1_ex6_no_hints_0,,,False,nat,k := n-(n%7);
+dafny-programs_tmp_tmpcwodh6qh_src_ticketsystem_no_hints_0,,,False,void,"t, ticket := t[p := ticket], ticket + 1; // map update p to ticket, update ticket"
+dafny-workout_tmp_tmp0abkw6f8_starter_ex03_no_hints_0,,,False,int,return x + 2;
+Clover_triple2_no_hints_1,,,False,int,"var a,b := 2*x, 4*x;"
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Function_no_hints_3,,,False,int,r := 3 * x;
+Clover_triple2_no_hints_15,,,False,int,var y:=2*x;
+Dafny_Verify_tmp_tmphq7j0row_dataset_C_convert_examples_01_no_hints_0,,,False,int_int_int_int,x := t1 + t2;
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Triple_no_hints_36,,,False,int,var y := x / 2;
+CVS-Projto1_tmp_tmpb1o0bu8z_searchSort_no_hints_5,,,False,int,i:= i + 1;
+dafny-mini-project_tmp_tmpjxr3wzqh_src_project2a_no_hints_4,,,False,void,messages := { m } + messages;
+DafnyProjects_tmp_tmp2acw_s4s_Graph_no_hints_4,,,False,void,"E := E + {(u, v)};"
+CVS-Projto1_tmp_tmpb1o0bu8z_searchSort_no_hints_4,,,False,int,i:= i + 1;
+dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_DividedConstructors_no_hints_29,,,False,void,a := a + 2*b;
+Clover_triple2_no_hints_7,,,False,int,"var a,b := 2*x, 4*x;"
+Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny1_Queue_no_hints_0,,,False,void,footprint := {this} + n.footprint;
+Clover_triple3_no_hints_4,,,False,int,r:= x+y;
+dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_DividedConstructors_no_hints_7,,,False,void,"a, c := 50, 2.0 * z;"
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Index_no_hints_11,,,False,int_int,y := s - m;
+dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_DividedConstructors_no_hints_23,,,False,void,"a, c := 50, 2.0 * z;"
+Formal-methods-of-software-development_tmp_tmppryvbyty_Examenes_Beni_Heusel-Benedikt-Ass-1_no_hints_0,,,False,void,"var k := (exp(3,4*(n-1))+9) / 10;"
+CO3408-Advanced-Software-Modelling-Assignment-2022-23-Part-2-A-Specification-Spectacular_tmp_tmp4pj4p2zx_car_park_no_hints_15,,,False,int,availableSpaces := (normalSpaces - |carPark|) - badParkingBuffer;
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Index_no_hints_3,,,False,int,i := n/2;
+cs245-verification_tmp_tmp0h_nxhqp_Assignments_simple_no_hints_0,,,False,int,x := y + 1;
+DafnyProjects_tmp_tmp2acw_s4s_Graph_no_hints_14,,,False,void,V := V - C + {v};
+CO3408-Advanced-Software-Modelling-Assignment-2022-23-Part-2-A-Specification-Spectacular_tmp_tmp4pj4p2zx_car_park_no_hints_27,,,False,bool,reservedCarPark := reservedCarPark + {car};
+nitwit_tmp_tmplm098gxz_nit_no_hints_15,,,False,nat,nf := mn - n;
+Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula2_no_hints_4,,,False,int,z := x-1;
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Ghost_no_hints_7,,,False,int,r := x + y;
+dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_DividedConstructors_no_hints_27,,,False,void,a := a + b;
+CVS-Projto1_tmp_tmpb1o0bu8z_searchSort_no_hints_0,,,False,bool,p := p + 1;
+dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_SharedDestructorsCompile_no_hints_1,,,False,void,i := i + 1;
+Clover_triple2_no_hints_16,,,False,int,r:= x+y;
+dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_SharedDestructorsCompile_no_hints_0,,,False,void,i := i + 1;
+dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_DividedConstructors_no_hints_15,,,False,void,a := a + 2*b;
+Clover_swap_arith_no_hints_4,,,False,int_int,y := y - x;
+dafny-synthesis_task_id_581_no_hints_3,,,False,int,area := baseEdge * baseEdge + 2 * baseEdge * height;
+DafnyProjects_tmp_tmp2acw_s4s_Graph_no_hints_8,,,False,void,V := V - {v};
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Ghost_no_hints_0,,,False,int,var y := 2 * x;
+dafny-synthesis_task_id_626_no_hints_0,,,False,int,area := radius * radius;
+Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny4_ClassRefinement_no_hints_3,,,False,void,N := N + 1;
+nitwit_tmp_tmplm098gxz_nit_no_hints_8,,,False,nat,nmax := b - 1;
+Clover_double_quadruple_no_hints_7,,,False,int_int,b := 2 * a;
+Trab1-Metodos-Formais_tmp_tmp_8fa4trr_circular-array_no_hints_23,,,False,CircularArray,q2.size := size + q1.size;
+703FinalProject_tmp_tmpr_10rn4z_DP-GD_no_hints_0,,,False,real_real,var constant:real := (size as real) * tau;
+dafny-synthesis_task_id_135_no_hints_3,,,False,int,hexNum := n * ((2 * n) - 1);
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Index_no_hints_8,,,False,int_int,y := s - m;
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Triple_no_hints_28,,,False,int,var y:= 2 * x;
+CO3408-Advanced-Software-Modelling-Assignment-2022-23-Part-2-A-Specification-Spectacular_tmp_tmp4pj4p2zx_car_park_no_hints_19,,,False,bool,subscriptions := subscriptions + {car};
+Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula2_no_hints_5,,,False,int,z := x-1;
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Function_no_hints_5,,,False,int,r:= 3 * x;
+Trab1-Metodos-Formais_tmp_tmp_8fa4trr_circular-array_no_hints_13,,,False,int,size := size - 1;
+CO3408-Advanced-Software-Modelling-Assignment-2022-23-Part-2-A-Specification-Spectacular_tmp_tmp4pj4p2zx_car_park_no_hints_24,,,False,bool,reservedCarPark := reservedCarPark + {car};
+Prog-Fun-Solutions_tmp_tmp7_gmnz5f_mockExam2_p3_no_hints_5,,,False,int,r := -r+1;
+nitwit_tmp_tmplm098gxz_nit_no_hints_23,,,False,nat_nat,carry := (x + y) / b;
+dafny-programs_tmp_tmpcwodh6qh_src_ticketsystem_no_hints_1,,,False,void,"t, ticket := t[p := ticket], ticket + 1; // map update p to ticket, update ticket"
+nitwit_tmp_tmplm098gxz_nit_no_hints_12,,,False,nat,nf := mn - n;
+t1_MF_tmp_tmpi_sqie4j_exemplos_classes_parte1_contadorV1b_no_hints_4,,,False,void,valor := valor -1 ;
+DafnyProjects_tmp_tmp2acw_s4s_Graph_no_hints_7,,,False,void,"E := E + {(u, v)};"
+Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula2_no_hints_0,,,False,nat,return 1+aux;
+Prog-Fun-Solutions_tmp_tmp7_gmnz5f_mockExam2_p3_no_hints_4,,,False,int,r := -r+1;
+CO3408-Advanced-Software-Modelling-Assignment-2022-23-Part-2-A-Specification-Spectacular_tmp_tmp4pj4p2zx_car_park_no_hints_4,,,False,bool,reservedCarPark := reservedCarPark - {car};
+Dafny_tmp_tmpmvs2dmry_examples1_no_hints_0,,,False,int_int,more := x + y;
+CO3408-Advanced-Software-Modelling-Assignment-2022-23-Part-2-A-Specification-Spectacular_tmp_tmp4pj4p2zx_car_park_no_hints_23,,,False,bool,carPark := carPark + {car};
+DafnyProjects_tmp_tmp2acw_s4s_Graph_no_hints_0,,,False,void,V := V + {v};
+Clover_double_quadruple_no_hints_0,,,False,int_int,a := 2 * x;
+Dafny_Verify_tmp_tmphq7j0row_dataset_C_convert_examples_01_no_hints_7,,,False,int_int_int_int,y := t1 + t2;
+Prog-Fun-Solutions_tmp_tmp7_gmnz5f_mockExam2_p2_no_hints_2,,,False,int_int,r := r - 2*s + 6;
+Dafny_Verify_tmp_tmphq7j0row_dataset_C_convert_examples_01_no_hints_4,,,False,int_int_int_int,y := t1 + t2;
+dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_DividedConstructors_no_hints_8,,,False,void,a := a + b;
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Ghost_no_hints_11,,,False,int_int,a := 2 * x;
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Triple_no_hints_40,,,False,int,r := 6 * y;
+dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_DividedConstructors_no_hints_13,,,False,void,a := a + 2*b;
+dafny-synthesis_task_id_279_no_hints_0,,,False,int,decagonal := 4 * n * n - 3 * n;
+stunning-palm-tree_tmp_tmpr84c2iwh_ch1_no_hints_3,,,False,int,var y := 2*x;
+dafny-language-server_tmp_tmpkir0kenl_Test_hofs_WhileLoop_no_hints_9,,,False,int,"i.val, r := i.val + 1, r + 1;"
+Trab1-Metodos-Formais_tmp_tmp_8fa4trr_circular-array_no_hints_11,,,False,int,start := start + 1;
+Formal-Methods-Project_tmp_tmphh2ar2xv_BubbleSort_no_hints_8,,,False,void,i := i -1;
+stunning-palm-tree_tmp_tmpr84c2iwh_ch1_no_hints_8,,,False,int,r := x - 1;
+Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula2_no_hints_1,,,False,nat,return 1+aux;
+Formal-methods-of-software-development_tmp_tmppryvbyty_Examenes_Beni_Heusel-Benedikt-Ass-1_no_hints_1,,,False,void,"var k := (exp(3,4*(n-1))+9) / 10;"
+CO3408-Advanced-Software-Modelling-Assignment-2022-23-Part-2-A-Specification-Spectacular_tmp_tmp4pj4p2zx_car_park_no_hints_0,,,False,bool,carPark := carPark - {car};
+se2011_tmp_tmp71eb82zt_ass2_ex2_no_hints_0,,,False,int,i := i+1;
+Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_from dafny main repo_dafny1_Queue_no_hints_7,,,False,void,footprint := footprint + n.footprint;
+dafny-language-server_tmp_tmpkir0kenl_Test_hofs_WhileLoop_no_hints_3,,,False,int,i.val := i.val + 1;
+DafnyProjects_tmp_tmp2acw_s4s_Power_no_hints_7,,,False,real,return temp * temp * x;
+formal_verication_dafny_tmp_tmpwgl2qz28_Challenges_ex2_no_hints_7,,,False,int_bool,z:= x/(42-y);
+Trab1-Metodos-Formais_tmp_tmp_8fa4trr_circular-array_no_hints_20,,,False,CircularArray,q2.size := size + q1.size;
+nitwit_tmp_tmplm098gxz_nit_no_hints_11,,,False,nat,nmax := b - 1;
+CSU55004---Formal-Verification_tmp_tmp4ki9iaqy_Project_Project_Part_1_project_pt_1_no_hints_19,,,False,nat,i := i - 1;
+dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_DividedConstructors_no_hints_14,,,False,void,a := a + 2*b;
+cs686_tmp_tmpdhuh5dza_classNotes_notes-9-8-21_no_hints_0,,,False,bool_int,count := count + 1;
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Ghost_no_hints_13,,,False,int_int,b := 2 * a;
+Dafny_Learning_Experience_tmp_tmpuxvcet_u_week1_7_MaxSum_no_hints_3,,,False,int_int,s := x+y;
+DafnyProjects_tmp_tmp2acw_s4s_Power_no_hints_4,,,False,real,return temp * temp * x;
+Formal-Methods-Project_tmp_tmphh2ar2xv_BubbleSort_no_hints_9,,,False,void,i := i -1;
+Software-building-and-verification-Projects_tmp_tmp5tm1srrn_CVS-projeto_aula2_no_hints_3,,,False,nat,return 1+aux;
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Function_no_hints_0,,,False,int,r := 3 * x;
+Clover_swap_arith_no_hints_6,,,False,int_int,y := y - x;
+dafny-synthesis_task_id_135_no_hints_0,,,False,int,hexNum := n * ((2 * n) - 1);
+CSU55004---Formal-Verification_tmp_tmp4ki9iaqy_Project_Project_Part_1_project_pt_1_no_hints_17,,,False,nat,i := i - 1;
+dafny-synthesis_task_id_279_no_hints_3,,,False,int,decagonal := 4 * n * n - 3 * n;
+Clover_triple2_no_hints_11,,,False,int,r:=(a+b)/2;
+dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_DividedConstructors_no_hints_16,,,False,void,a := a + b;
+Prog-Fun-Solutions_tmp_tmp7_gmnz5f_mockExam2_p3_no_hints_8,,,False,int,r := r -3;
+stunning-palm-tree_tmp_tmpr84c2iwh_ch1_no_hints_7,,,False,int,r := y + x;
+DafnyProjects_tmp_tmp2acw_s4s_Graph_no_hints_11,,,False,void,V := V - {v};
+dafny-synthesis_task_id_441_no_hints_1,,,False,int,area := 6 * size * size;
+nitwit_tmp_tmplm098gxz_nit_no_hints_20,,,False,nat_nat,carry := (x + y) / b;
+dafny-workout_tmp_tmp0abkw6f8_starter_ex03_no_hints_4,,,False,real,return x + 1.0;
+Dafny_Verify_tmp_tmphq7j0row_dataset_C_convert_examples_01_no_hints_2,,,False,int_int_int_int,x := t1 + t2;
+nitwit_tmp_tmplm098gxz_nit_no_hints_14,,,False,nat,nf := mn - n;
+formal_verication_dafny_tmp_tmpwgl2qz28_Challenges_ex2_no_hints_0,,,False,int,z:= x/(42-y);
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Ghost_no_hints_4,,,False,int,r := x + y;
+Formal-methods-of-software-development_tmp_tmppryvbyty_Examenes_Beni_Heusel-Benedikt-Ass-1_no_hints_3,,,False,void,"var k := (exp(3,4*(n-1))+9) / 10;"
+Clover_double_quadruple_no_hints_3,,,False,int_int,a := 2 * x;
+Prog-Fun-Solutions_tmp_tmp7_gmnz5f_mockExam2_p3_no_hints_9,,,False,int,r := r -3;
+Trab1-Metodos-Formais_tmp_tmp_8fa4trr_circular-array_no_hints_1,,,False,void,size := size + 1;
+CSU55004---Formal-Verification_tmp_tmp4ki9iaqy_Project_Project_Part_1_project_pt_1_no_hints_13,,,False,bool,i:=i+1;
+dafny-synthesis_task_id_279_no_hints_1,,,False,int,decagonal := 4 * n * n - 3 * n;
+Clover_triple3_no_hints_3,,,False,int,var y:=2*x;
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Triple_no_hints_41,,,False,int,r := 6 * y;
+Dafny_tmp_tmpmvs2dmry_examples1_no_hints_4,,,False,int_int,less := x - y;
+nitwit_tmp_tmplm098gxz_nit_no_hints_28,,,False,nat_nat,carry := (x + y + 1) / b;
+dafny-synthesis_task_id_238_no_hints_1,,,False,int,count := (|s| * (|s| + 1)) / 2;
+Dafny_tmp_tmpmvs2dmry_examples1_no_hints_7,,,False,int_int,less := x - y;
+Formal_Verification_With_Dafny_tmp_tmp5j79rq48_Counter_no_hints_4,,,False,void,value := value - 1 ;
+CSU55004---Formal-Verification_tmp_tmp4ki9iaqy_Project_Project_Part_1_project_pt_1_no_hints_0,,,False,bool,i := i + 1;
+Formal_Verification_With_Dafny_tmp_tmp5j79rq48_Counter_no_hints_7,,,False,void,value := value - 1 ;
+CSU55004---Formal-Verification_tmp_tmp4ki9iaqy_Project_Project_Part_1_project_pt_1_no_hints_12,,,False,bool,i:=i+1;
+CSU55004---Formal-Verification_tmp_tmp4ki9iaqy_Project_Project_Part_1_project_pt_1_no_hints_7,,,False,bool,i := i+1;
+Prog-Fun-Solutions_tmp_tmp7_gmnz5f_mockExam2_p2_no_hints_5,,,False,int_int,s := s - 3;
+dafl_tmp_tmp_r3_8w3y_dafny_examples_dafny0_DividedConstructors_no_hints_20,,,False,void,"a, c := 50, 2.0 * z;"
+CO3408-Advanced-Software-Modelling-Assignment-2022-23-Part-2-A-Specification-Spectacular_tmp_tmp4pj4p2zx_car_park_no_hints_3,,,False,bool,carPark := carPark - {car};
+CO3408-Advanced-Software-Modelling-Assignment-2022-23-Part-2-A-Specification-Spectacular_tmp_tmp4pj4p2zx_car_park_no_hints_8,,,False,int,availableSpaces := (normalSpaces - |carPark|) + (reservedSpaces - |reservedCarPark|) - badParkingBuffer;
+DafnyProjects_tmp_tmp2acw_s4s_Graph_no_hints_15,,,False,void,V := V - C + {v};
+Prog-Fun-Solutions_tmp_tmp7_gmnz5f_mockExam2_p3_no_hints_0,,,False,int,r := 2*r;
+dafny-workout_tmp_tmp0abkw6f8_starter_ex03_no_hints_1,,,False,int,return x + 2;
+eth2-dafny_tmp_tmpcrgexrgb_src_dafny_utils_SetHelpers_no_hints_0,,,False,void,var y' := y - { e };
+eth2-dafny_tmp_tmpcrgexrgb_src_dafny_utils_SetHelpers_no_hints_3,,,False,void,var y' := y - { e };
+Clover_triple2_no_hints_19,,,False,int,r:= x+y;
+ironsync-osdi2023_tmp_tmpx80antoe_linear-dafny_Test_c++_sets_no_hints_0,,,False,void,var s2:set<seq<uint32>> := s1 - { m1 };
+DafnyProjects_tmp_tmp2acw_s4s_Graph_no_hints_12,,,False,void,V := V - C + {v};
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Triple_no_hints_20,,,False,int,"var a, b := 2 * x, 4 * x;"
+CSU55004---Formal-Verification_tmp_tmp4ki9iaqy_Project_Project_Part_1_project_pt_1_no_hints_1,,,False,bool,i := i + 1;
+Dafny_Verify_tmp_tmphq7j0row_Test_Cases_Index_no_hints_7,,,False,int_int,s := x + y;
+dafny-synthesis_task_id_801_no_hints_5,,,False,int,count := count + 1;
+dafny-synthesis_task_id_89_no_hints_0,,,False,int,m := n - 1;
+Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_add_by_one_details_no_hints_3,,,False,int,{return x+1;}
+Formal-Methods-Project_tmp_tmphh2ar2xv_BubbleSort_no_hints_5,,,False,void,j := j + 1;
+Program-Verification-Dataset_tmp_tmpgbdrlnu__Dafny_basic examples_product_details_no_hints_0,,,False,nat,res := res+1;
+cs245-verification_tmp_tmp0h_nxhqp_SortingIssues_BubbleSortCode_no_hints_5,,,False,void,i := i+1;

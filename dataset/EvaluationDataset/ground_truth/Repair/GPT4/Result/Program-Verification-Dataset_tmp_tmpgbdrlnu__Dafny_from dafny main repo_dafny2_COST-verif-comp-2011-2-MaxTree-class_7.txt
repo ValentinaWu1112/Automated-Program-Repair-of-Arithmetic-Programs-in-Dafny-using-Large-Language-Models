@@ -1,0 +1,4 @@
+0
+115
+
+    Repr := lft.Repr + rgt.Repr + {this}; //buggy line

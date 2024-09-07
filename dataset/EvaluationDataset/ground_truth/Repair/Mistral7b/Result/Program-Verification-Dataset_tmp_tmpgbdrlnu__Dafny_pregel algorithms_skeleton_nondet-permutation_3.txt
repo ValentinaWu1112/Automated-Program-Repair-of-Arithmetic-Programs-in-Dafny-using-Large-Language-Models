@@ -1,0 +1,4 @@
+1
+30
+
+ used := used - {dst} + {perm[|used|]};

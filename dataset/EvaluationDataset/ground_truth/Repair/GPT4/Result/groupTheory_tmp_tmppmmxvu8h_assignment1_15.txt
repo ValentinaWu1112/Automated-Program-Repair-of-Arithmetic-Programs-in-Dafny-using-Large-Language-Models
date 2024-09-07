@@ -1,0 +1,4 @@
+0
+106
+
+		ghost var L, R := A + B + C, A + (B + C); //buggy line

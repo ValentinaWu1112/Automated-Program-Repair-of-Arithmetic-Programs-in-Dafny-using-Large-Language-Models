@@ -1,0 +1,4 @@
+0
+27
+
+prev, f := f, prev + f; //buggy line

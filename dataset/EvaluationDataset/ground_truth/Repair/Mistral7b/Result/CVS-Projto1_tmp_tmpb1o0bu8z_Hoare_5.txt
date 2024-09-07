@@ -1,0 +1,4 @@
+0
+50
+
+ i := i + 1; //remove the decrement symbol from the right side of the assignment.

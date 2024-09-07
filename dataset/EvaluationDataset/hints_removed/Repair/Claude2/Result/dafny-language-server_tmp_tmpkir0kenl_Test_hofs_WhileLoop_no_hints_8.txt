@@ -1,0 +1,6 @@
+0
+36
+
+
+// FIXED LINE: 
+// RUN: %dafny /compile:3 /print:"%t.print

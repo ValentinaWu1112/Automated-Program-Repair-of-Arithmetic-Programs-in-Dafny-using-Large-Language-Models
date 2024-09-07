@@ -1,0 +1,5 @@
+1
+13
+
+ b[i] := a[a.Length - i - 1]; // corrected line
+i := i + 1;

@@ -1,0 +1,5 @@
+0
+14
+
+ var mid := (lo + hi) / 2; // division by -2 should be replaced with division by 2
+// or use

@@ -1,0 +1,4 @@
+0
+4
+
+ a := 2 * x; // Corrected line.

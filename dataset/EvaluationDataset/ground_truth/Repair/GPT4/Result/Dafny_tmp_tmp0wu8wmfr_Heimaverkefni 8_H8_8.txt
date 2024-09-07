@@ -1,0 +1,4 @@
+0
+33
+
+pre := pre + multiset{temp}; //buggy line

@@ -1,0 +1,4 @@
+0
+29
+
+ghost var c := (a - b) / b - a / b + 1;

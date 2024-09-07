@@ -1,0 +1,4 @@
+0
+33
+
+    if a[k] < x     { k := k + 1;   } //buggy line

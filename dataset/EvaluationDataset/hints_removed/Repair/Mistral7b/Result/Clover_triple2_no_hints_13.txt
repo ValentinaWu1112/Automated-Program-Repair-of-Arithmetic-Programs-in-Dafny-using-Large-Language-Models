@@ -1,0 +1,6 @@
+1
+9
+
+ // Corrected buggy line:
+//var y := -2 * x;
+var y := 2 * x; // Change

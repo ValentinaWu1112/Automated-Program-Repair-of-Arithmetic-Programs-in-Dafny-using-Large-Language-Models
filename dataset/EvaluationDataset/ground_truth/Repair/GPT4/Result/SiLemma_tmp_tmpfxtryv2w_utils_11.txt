@@ -1,0 +1,4 @@
+0
+53
+
+            ghost var new_s := s - {y};

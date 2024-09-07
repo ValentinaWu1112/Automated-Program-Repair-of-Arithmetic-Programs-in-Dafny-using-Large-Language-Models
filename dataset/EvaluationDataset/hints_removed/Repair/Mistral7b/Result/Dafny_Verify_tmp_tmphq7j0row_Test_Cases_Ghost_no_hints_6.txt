@@ -1,0 +1,4 @@
+2
+16
+
+ r := x + x + x; //correct line for Triple1 method.

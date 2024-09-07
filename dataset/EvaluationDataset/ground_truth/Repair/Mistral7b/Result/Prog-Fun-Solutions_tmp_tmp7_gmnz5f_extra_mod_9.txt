@@ -1,0 +1,4 @@
+1
+32
+
+ k := k / 2; // corrected line

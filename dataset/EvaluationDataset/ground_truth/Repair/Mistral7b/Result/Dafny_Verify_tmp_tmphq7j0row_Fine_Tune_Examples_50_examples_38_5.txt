@@ -1,0 +1,4 @@
+1
+9
+
+ while (i < n && i > 0) //buggy line

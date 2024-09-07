@@ -1,0 +1,4 @@
+1
+17
+
+        if odd(a[i]) { i := i + 1; } //buggy line

@@ -1,0 +1,4 @@
+1
+68
+
+availableSpaces := normalSpaces - |carPark| - badParkingBuffer; //buggy line

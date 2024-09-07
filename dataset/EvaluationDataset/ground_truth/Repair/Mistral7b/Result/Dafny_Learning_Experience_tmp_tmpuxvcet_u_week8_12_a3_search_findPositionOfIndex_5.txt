@@ -1,0 +1,4 @@
+0
+26
+
+ Count := Count + 1; // fix the increment operation in the while loop.

@@ -1,0 +1,5 @@
+1
+19
+
+
+var mid := (low + high) / 2;

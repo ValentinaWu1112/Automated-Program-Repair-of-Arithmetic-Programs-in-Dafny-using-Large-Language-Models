@@ -1,0 +1,4 @@
+0
+12
+
+ count := count + 1; // instead of count := count - 1;

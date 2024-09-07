@@ -1,0 +1,4 @@
+0
+41
+
+ r := c[j] - c[i]; // corrected line

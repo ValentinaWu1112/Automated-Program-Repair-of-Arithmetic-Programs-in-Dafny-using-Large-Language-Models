@@ -1,0 +1,5 @@
+2
+14
+
+ keyCount := keyCount + 1; // Increment the count instead of decrementing it.
+// The buggy line was causing

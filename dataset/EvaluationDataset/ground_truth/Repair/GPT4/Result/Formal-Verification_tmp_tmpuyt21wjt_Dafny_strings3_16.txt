@@ -1,0 +1,4 @@
+2
+109
+
+var isSub := isSubstring(str1[i..i + k], str2);

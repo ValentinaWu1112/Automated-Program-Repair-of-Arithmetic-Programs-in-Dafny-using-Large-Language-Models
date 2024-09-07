@@ -1,0 +1,4 @@
+2
+27
+
+ var new_b := b - {y}; //buggy line

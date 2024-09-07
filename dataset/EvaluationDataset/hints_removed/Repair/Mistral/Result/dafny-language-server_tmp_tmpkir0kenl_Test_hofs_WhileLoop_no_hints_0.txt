@@ -1,0 +1,6 @@
+0
+
+ while i.val < n && i.val < n //buggy line
+
+//changed to:
+while i.val < n && i.val <= n //changed condition for loop

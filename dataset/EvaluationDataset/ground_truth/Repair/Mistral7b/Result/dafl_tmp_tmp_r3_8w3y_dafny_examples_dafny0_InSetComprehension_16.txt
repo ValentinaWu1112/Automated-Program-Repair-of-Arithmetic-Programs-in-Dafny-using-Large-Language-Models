@@ -1,0 +1,5 @@
+0
+70
+
+ Contents := Contents + {t}; // Corrected line.
+// The buggy line was subtracting the element instead of

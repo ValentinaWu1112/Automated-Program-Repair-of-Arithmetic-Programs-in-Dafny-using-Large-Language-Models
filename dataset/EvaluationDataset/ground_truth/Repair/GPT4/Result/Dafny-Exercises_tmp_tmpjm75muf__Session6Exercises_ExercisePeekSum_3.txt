@@ -1,0 +1,4 @@
+0
+34
+
+sum := sum + v[i]; //buggy line

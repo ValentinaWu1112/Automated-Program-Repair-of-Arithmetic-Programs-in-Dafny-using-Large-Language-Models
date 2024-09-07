@@ -1,0 +1,4 @@
+0
+11
+
+ cubedArray[i] := a[i] * a[i] * a[i];

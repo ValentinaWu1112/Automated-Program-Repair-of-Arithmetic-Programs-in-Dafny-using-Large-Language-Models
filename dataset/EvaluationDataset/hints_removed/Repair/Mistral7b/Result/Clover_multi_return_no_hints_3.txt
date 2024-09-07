@@ -1,0 +1,5 @@
+0
+5
+
+ more := x + y; // should be addition instead of subtraction for the first return value
+less := x - y; // correct

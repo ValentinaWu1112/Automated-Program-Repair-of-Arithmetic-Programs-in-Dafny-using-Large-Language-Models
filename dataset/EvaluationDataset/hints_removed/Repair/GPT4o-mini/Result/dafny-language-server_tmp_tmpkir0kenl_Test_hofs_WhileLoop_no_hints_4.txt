@@ -1,0 +1,4 @@
+1
+22
+
+  var i := n; //buggy line

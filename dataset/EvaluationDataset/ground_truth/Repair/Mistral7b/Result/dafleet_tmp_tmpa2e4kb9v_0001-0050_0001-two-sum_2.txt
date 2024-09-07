@@ -1,0 +1,4 @@
+0
+42
+
+ var rest := target - element; // instead of rest := element - target;

@@ -1,0 +1,4 @@
+0
+15
+
+        current_sum := current_sum + nums[i];

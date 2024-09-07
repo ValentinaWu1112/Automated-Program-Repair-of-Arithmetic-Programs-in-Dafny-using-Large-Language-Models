@@ -1,0 +1,4 @@
+0
+26
+
+ i := i + 1; // Replace with this line instead of the buggy one to correct the loop condition.

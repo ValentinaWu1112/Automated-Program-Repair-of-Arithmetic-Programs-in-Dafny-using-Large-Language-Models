@@ -1,0 +1,4 @@
+0
+34
+
+ i := i + 1; // Change the sign of the decrement operator to increment i instead.

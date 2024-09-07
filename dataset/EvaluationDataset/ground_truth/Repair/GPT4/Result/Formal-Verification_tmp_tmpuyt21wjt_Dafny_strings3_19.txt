@@ -1,0 +1,4 @@
+2
+108
+
+var t := i + k; //buggy line

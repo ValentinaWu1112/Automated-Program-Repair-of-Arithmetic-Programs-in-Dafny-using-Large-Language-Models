@@ -1,0 +1,4 @@
+0
+12
+
+ q := q + 1; // Corrected line. Subtraction should be done before assignment to 'r'.

@@ -1,0 +1,4 @@
+0
+19
+
+    diff := maxVal - minVal; //buggy line

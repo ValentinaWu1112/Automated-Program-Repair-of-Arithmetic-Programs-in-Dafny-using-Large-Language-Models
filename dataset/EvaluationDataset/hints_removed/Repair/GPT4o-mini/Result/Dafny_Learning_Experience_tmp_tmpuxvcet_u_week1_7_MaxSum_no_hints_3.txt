@@ -1,0 +1,4 @@
+0
+5
+
+    s := x + y; //buggy line

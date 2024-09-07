@@ -1,0 +1,4 @@
+0
+71
+
+ top := top + 1; // correct line

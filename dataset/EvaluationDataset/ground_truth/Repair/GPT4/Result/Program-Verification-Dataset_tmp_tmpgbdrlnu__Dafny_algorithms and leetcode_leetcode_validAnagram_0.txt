@@ -1,0 +1,4 @@
+0
+11
+
+mset := mset + multiset{s[i]}; //buggy line

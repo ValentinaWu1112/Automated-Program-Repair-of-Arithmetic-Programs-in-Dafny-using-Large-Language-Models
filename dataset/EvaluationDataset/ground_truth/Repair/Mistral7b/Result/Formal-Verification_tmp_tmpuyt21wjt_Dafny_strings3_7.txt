@@ -1,0 +1,4 @@
+1
+64
+
+ var i := |str| + |sub| - |sub|; // corrected line

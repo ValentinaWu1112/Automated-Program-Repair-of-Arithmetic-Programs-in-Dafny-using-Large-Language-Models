@@ -1,0 +1,4 @@
+0
+30
+
+ value := value - 1; // Corrected line for the decrement method (dec)

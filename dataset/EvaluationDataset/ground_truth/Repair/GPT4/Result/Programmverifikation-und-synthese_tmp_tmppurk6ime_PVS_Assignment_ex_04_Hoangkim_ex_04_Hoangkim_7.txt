@@ -1,0 +1,4 @@
+0
+14
+
+sum := sum + (i * 2 + 1); //buggy line

@@ -1,0 +1,4 @@
+0
+24
+
+ n := n + 1; // replaced '0' with 'n' to increment the count of filtered vowels correctly.

@@ -1,0 +1,4 @@
+1
+5
+
+var l := a.Length - 1;

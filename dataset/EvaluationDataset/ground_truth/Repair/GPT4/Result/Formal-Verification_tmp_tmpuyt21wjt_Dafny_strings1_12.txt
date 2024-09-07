@@ -1,0 +1,4 @@
+0
+69
+
+    var i := |str1| - k; //buggy line
