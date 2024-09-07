@@ -77,7 +77,7 @@ To use GPT-4, you need an API key. Make sure to obtain your API key from the ser
     - In LM Studio, select the installed model and click 'Start Server' in the Local Server tab.
     - Extract the base_url, API key, and model name from the example `chat(python)` provided by LM Studio.
     - Open [APR.cs](dafny\Source\DafnyDriver\APR\APR.cs) and change to the appropriate model. 
-    - Update the url, model name, and API key in the model configuration. For example, if you are using the Llama model, update the information in [RepairLlama3.cs](dafny\Source\DafnyDriver\APR\Model\RepairLlama3.cs). Currently, the setup is model = "LM Studio Community/Meta-Llama-3-8B-Instruct-GGUF" and the model is initialized with Models = new APIModels(model, "lm-studio", "http://localhost:1234/v1"). Verify this information in LM Studio and adjust it accordingly if it differs.
+    - Update the url, model name, and API key in the model configuration. For example, if you are using the Llama model, update the information in [RepairLlama3.cs](dafny\Source\DafnyDriver\APR\Model\RepairLlama3.cs). Currently, the setup is `model = "LM Studio Community/Meta-Llama-3-8B-Instruct-GGUF"` and the model is initialized with `Models = new APIModels(model, "lm-studio", "http://localhost:1234/v1")`. Verify this information in LM Studio and adjust it accordingly if it differs.
 
     2.2 Using GPT-4 Model
     - To use the GPT-4 model, you will need an API Key. Set this key as an environment variable.
