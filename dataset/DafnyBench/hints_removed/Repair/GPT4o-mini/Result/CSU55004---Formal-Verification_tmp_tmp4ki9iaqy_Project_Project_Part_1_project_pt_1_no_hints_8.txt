@@ -1,4 +1,0 @@
-0
-80
-
-var n := |str1| - k + 1; //buggy line

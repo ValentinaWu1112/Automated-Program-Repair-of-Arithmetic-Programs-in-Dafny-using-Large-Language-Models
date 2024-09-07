@@ -1,4 +1,0 @@
-2
-21
-
- b := a + 1; // corrected line to ensure b is within bounds after incrementing a.

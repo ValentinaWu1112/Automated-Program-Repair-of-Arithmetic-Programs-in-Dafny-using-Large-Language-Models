@@ -1,4 +1,0 @@
-0
-22
-
- var mid := low + (high - low) / 2; // corrected line

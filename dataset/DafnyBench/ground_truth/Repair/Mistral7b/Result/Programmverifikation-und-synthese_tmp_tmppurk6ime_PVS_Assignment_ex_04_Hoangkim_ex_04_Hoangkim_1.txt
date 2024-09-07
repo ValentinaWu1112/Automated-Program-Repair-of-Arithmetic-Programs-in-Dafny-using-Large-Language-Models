@@ -1,4 +1,0 @@
-0
-13
-
- i := i + 1; //correct line

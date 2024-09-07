@@ -1,4 +1,0 @@
-0
-7
-
-r := a + b; //buggy line

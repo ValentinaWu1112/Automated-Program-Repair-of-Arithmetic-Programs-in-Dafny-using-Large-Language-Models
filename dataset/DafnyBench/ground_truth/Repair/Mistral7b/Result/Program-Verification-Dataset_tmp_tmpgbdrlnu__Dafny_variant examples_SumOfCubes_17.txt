@@ -1,4 +1,0 @@
-0
-71
-
- i := i + 1; // corrected line

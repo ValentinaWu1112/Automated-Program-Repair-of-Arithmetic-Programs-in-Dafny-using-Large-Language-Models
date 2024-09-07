@@ -1,3 +1,0 @@
-2
-
- count := count + 1;

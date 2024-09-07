@@ -1,4 +1,0 @@
-2
-92
-
- length := length + 1; // instead of length := length + 0;

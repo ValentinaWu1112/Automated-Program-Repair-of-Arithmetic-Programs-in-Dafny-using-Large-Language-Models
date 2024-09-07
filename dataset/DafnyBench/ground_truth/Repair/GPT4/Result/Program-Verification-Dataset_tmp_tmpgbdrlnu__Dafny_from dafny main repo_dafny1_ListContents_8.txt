@@ -1,4 +1,0 @@
-0
-87
-
-current.Repr := {current} + reverse.Repr;

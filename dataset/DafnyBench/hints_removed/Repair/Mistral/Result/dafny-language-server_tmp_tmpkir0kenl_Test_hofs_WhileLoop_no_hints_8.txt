@@ -1,4 +1,0 @@
-0
-
- while i.val < n //buggy line
-while i.val < n && i.val - 1 >= 0 //fixed line

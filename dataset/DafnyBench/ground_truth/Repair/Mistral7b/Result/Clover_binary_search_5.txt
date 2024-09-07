@@ -1,6 +1,0 @@
-0
-16
-
- lo := mid; // Remove the negative one sign
-// or
-lo := mid + 1; // Alternatively, increment lo after assignment

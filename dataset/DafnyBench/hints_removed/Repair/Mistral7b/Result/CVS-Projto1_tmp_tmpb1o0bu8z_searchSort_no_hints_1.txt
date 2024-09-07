@@ -1,4 +1,0 @@
-2
-18
-
- p := p + 1; // for fillK method, increment p correctly to check next array element.

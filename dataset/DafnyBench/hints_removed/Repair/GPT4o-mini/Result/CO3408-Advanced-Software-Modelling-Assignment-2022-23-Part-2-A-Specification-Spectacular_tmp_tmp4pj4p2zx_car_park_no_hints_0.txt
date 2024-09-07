@@ -1,4 +1,0 @@
-0
-48
-
-      carPark := carPark - {car}; //buggy line

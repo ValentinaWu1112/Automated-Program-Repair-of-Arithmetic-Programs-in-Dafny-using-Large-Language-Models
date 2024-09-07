@@ -1,4 +1,0 @@
-0
-52
-
-j := j - 1; // decrement j

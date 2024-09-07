@@ -1,4 +1,0 @@
-0
-58
-
-ghost var inner_mid := mid; //buggy line

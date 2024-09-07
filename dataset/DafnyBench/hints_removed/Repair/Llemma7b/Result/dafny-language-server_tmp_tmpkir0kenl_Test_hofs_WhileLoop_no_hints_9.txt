@@ -1,6 +1,0 @@
-0
-36
-
-
-// RESULT: 23  24  25
-// RUN: diff %t.print %s.

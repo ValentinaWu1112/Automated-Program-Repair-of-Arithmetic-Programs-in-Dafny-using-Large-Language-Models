@@ -1,4 +1,0 @@
-0
-99
-
-Repr := Repr + depot.Repr;

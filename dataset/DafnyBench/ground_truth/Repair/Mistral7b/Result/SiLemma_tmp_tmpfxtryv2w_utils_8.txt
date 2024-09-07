@@ -1,4 +1,0 @@
-0
-53
-
- ghost var new_s := s - {y}; // changed to remove y from the set instead of adding it.

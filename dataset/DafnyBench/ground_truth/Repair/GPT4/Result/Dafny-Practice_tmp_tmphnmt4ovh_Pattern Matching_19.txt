@@ -1,4 +1,0 @@
-0
-64
-
-text_hash := text_hash - left_letter_as_int + right_new_letter_as_int; //buggy line

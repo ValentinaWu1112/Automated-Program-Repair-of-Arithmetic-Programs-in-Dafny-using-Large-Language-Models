@@ -1,5 +1,0 @@
-0
-30
-
- last := last + 1; //buggy line
-nums[last] := nums[i];

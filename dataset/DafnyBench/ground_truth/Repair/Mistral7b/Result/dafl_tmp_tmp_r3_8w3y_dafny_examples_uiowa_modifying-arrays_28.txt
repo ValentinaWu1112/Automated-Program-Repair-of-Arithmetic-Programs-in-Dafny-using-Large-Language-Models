@@ -1,4 +1,0 @@
-0
-104
-
- n := n + 1; //should be: n := n - 1; on the buggy line.

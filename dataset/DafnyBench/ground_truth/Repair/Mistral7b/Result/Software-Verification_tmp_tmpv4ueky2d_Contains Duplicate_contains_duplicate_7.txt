@@ -1,4 +1,0 @@
-0
-20
-
- i := i + 1; //buggy line fixed

@@ -1,4 +1,0 @@
-0
-76
-
-            s := s + ll.head; //buggy line

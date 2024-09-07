@@ -1,5 +1,0 @@
-0
-7
-
- r:= a + b; // Replace the division by addition to ensure integer result.
-// Alternatively, use integer multiplication instead

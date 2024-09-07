@@ -1,4 +1,0 @@
-0
-140
-
- while n >= 0 // Change to while n >= 0 instead of while true

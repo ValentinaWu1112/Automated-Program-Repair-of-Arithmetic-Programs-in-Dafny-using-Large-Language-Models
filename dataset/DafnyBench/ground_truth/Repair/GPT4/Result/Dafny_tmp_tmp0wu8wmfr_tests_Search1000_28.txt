@@ -1,4 +1,0 @@
-0
-29
-
-    if a[k+1] < x   { k := k + 2;   } //buggy line

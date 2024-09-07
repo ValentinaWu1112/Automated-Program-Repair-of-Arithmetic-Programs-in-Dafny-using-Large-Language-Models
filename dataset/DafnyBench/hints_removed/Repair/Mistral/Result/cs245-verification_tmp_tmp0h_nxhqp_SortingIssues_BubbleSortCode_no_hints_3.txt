@@ -1,3 +1,0 @@
-1
-
- j := j + 1; // Corrected buggy line

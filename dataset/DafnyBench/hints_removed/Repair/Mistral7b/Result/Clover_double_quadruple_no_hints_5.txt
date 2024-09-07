@@ -1,4 +1,0 @@
-0
-5
-
- b := 4 * x; // Corrected line to ensure b is 4 times the input x.

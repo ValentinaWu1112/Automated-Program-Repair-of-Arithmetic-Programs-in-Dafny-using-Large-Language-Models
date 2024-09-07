@@ -1,4 +1,0 @@
-0
-70
-
-    Contents := Contents + {t};

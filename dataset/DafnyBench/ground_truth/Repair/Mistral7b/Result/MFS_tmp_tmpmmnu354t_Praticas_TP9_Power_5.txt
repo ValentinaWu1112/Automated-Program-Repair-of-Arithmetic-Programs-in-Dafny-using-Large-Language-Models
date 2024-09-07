@@ -1,4 +1,0 @@
-2
-26
-
- i := i + 1; // Change to increment the loop counter instead of decrementing it.

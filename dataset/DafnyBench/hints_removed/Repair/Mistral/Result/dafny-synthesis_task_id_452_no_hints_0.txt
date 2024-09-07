@@ -1,8 +1,0 @@
-0
-
- if (costPrice > sellingPrice) {
-    loss := costPrice - sellingPrice; //fixed line
-
-} else {
-    loss := 0;
-}

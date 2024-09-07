@@ -1,4 +1,0 @@
-0
-90
-
-    ghost var ln := |nums| - 1;

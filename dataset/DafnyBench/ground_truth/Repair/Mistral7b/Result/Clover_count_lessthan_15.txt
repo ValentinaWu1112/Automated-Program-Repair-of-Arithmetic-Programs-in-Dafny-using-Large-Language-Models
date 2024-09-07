@@ -1,4 +1,0 @@
-0
-20
-
- count := count + 1; // Increment the count instead of decrementing it when i is less than the threshold.

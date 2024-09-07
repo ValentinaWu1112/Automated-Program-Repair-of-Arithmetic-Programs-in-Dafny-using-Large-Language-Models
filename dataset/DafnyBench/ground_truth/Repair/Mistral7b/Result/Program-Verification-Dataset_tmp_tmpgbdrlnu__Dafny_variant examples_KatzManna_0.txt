@@ -1,4 +1,0 @@
-2
-21
-
- y1 := y1 - 10; // corrected line

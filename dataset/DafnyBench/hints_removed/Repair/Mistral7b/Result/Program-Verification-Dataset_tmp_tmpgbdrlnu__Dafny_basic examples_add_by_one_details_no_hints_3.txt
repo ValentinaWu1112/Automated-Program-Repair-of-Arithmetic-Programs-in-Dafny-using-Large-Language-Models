@@ -1,4 +1,0 @@
-0
-4
-
- {return x + 1;} //fix the buggy line by adding 1 instead of subtracting 0.

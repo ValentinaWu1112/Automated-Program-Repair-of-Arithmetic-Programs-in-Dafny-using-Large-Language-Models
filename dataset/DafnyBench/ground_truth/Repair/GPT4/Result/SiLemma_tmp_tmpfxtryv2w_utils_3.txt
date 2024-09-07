@@ -1,4 +1,0 @@
-0
-26
-
-ghost var new_a := a - {y};

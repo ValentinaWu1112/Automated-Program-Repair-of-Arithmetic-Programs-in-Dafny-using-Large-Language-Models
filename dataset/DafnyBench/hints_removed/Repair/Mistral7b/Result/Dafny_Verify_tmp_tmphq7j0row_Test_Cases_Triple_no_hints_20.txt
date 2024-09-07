@@ -1,5 +1,0 @@
-0
-19
-
- var a := 2 * x;
-var b := x / 2; // Ensure that division is performed before assignment to 'b'

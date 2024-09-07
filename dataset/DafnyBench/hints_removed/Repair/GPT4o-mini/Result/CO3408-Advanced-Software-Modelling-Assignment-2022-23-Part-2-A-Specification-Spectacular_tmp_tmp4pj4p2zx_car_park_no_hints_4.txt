@@ -1,4 +1,0 @@
-0
-51
-
-reservedCarPark := reservedCarPark - {car};

@@ -1,4 +1,0 @@
-0
-48
-
-    var delta := x - val; //buggy line

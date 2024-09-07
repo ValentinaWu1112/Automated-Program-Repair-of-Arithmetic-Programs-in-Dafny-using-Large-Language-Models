@@ -1,4 +1,0 @@
-1
-68
-
- return Seq_2' + [Seq[0]] + Seq_1';

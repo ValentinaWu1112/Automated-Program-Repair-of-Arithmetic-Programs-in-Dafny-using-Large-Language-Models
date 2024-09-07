@@ -1,4 +1,0 @@
-0
-12
-
- q := q + 1; // Corrected line. Increment q instead of decrementing it.

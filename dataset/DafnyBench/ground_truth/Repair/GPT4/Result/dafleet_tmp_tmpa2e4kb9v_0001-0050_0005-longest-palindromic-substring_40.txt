@@ -1,4 +1,0 @@
-0
-174
-
-center := center + 1;

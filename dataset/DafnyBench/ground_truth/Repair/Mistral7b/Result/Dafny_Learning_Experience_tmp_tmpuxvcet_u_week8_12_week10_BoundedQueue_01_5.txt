@@ -1,4 +1,0 @@
-0
-51
-
- wr := wr + 1; // instead of wr := wr + 0;

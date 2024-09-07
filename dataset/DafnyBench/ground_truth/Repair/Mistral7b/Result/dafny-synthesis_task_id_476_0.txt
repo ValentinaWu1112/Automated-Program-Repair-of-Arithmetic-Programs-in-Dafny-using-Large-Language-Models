@@ -1,4 +1,0 @@
-0
-23
-
- sum := maxVal + minVal;

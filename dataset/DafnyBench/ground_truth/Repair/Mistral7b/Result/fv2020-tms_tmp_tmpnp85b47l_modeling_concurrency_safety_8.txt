@@ -1,4 +1,0 @@
-0
-140
-
- while n >= 0 //buggy line

@@ -1,4 +1,0 @@
-0
-21
-
- i := i + 1; // Corrected increment to move past the current operand index.

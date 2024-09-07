@@ -1,4 +1,0 @@
-0
-10
-
- median := (a[a.Length / 2 - 1] + b[0]) / 2; // Corrected line

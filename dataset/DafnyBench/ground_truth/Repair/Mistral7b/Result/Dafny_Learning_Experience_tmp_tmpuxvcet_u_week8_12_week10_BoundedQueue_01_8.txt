@@ -1,4 +1,0 @@
-2
-70
-
- rd := rd + 1; // instead of rd := rd - 1;

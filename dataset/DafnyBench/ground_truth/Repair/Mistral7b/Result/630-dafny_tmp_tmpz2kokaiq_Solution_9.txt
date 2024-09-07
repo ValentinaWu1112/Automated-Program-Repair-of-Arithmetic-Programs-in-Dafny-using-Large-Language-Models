@@ -1,4 +1,0 @@
-1
-23
-
- low := mid + 1; // correction: increment instead of decrementing the index when x is smaller than the middle element.

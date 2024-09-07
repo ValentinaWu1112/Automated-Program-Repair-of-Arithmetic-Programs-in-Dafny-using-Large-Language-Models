@@ -1,4 +1,0 @@
-1
-22
-
- value := value + 1; // instead of value := value - 1;

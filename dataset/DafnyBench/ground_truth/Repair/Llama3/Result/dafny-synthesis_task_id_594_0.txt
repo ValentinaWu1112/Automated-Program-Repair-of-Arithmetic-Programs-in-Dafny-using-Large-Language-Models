@@ -1,4 +1,0 @@
-0
-43
-
-diff := a[firstEven] - a[firstOdd];

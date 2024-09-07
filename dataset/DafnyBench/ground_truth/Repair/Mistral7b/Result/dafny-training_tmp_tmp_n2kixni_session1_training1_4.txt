@@ -1,4 +1,0 @@
-2
-137
-
- return index + 2; //buggy line should be return index + 1;

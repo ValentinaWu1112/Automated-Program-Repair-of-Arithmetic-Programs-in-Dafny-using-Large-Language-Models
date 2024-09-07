@@ -1,4 +1,0 @@
-0
-27
-
- y := y - 1; // Decrement y instead of incrementing it to ensure the while loop terminates correctly.

@@ -1,4 +1,0 @@
-1
-41
-
-aa := 2 * aa; //buggy line

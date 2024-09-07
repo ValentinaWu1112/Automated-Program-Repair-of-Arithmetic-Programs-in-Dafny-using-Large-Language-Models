@@ -1,4 +1,0 @@
-0
-69
-
- bi := bi + 1; // replace with this line

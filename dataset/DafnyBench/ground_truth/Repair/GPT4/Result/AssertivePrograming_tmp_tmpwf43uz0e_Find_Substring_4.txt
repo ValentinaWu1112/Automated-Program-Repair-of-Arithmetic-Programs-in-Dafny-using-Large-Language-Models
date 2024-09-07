@@ -1,4 +1,0 @@
-0
-46
-
-var j := |str2| - 1; //buggy line

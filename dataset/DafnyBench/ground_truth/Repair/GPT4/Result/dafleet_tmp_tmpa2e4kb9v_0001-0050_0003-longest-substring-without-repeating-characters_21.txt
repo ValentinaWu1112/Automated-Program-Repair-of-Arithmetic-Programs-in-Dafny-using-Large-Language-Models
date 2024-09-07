@@ -1,4 +1,0 @@
-1
-123
-
-lo := char_to_index[s[hi]] + 1;

@@ -1,4 +1,0 @@
-0
-15
-
-x, y := x + 1, y + y; //buggy line

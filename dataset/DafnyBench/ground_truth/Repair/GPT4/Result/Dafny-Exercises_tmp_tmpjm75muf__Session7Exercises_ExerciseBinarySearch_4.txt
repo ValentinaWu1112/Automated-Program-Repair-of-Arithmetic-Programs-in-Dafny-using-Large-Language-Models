@@ -1,4 +1,0 @@
-0
-17
-
-   var m := (c + f) / 2; //buggy line

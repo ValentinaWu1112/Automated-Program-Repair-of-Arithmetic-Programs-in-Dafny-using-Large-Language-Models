@@ -1,4 +1,0 @@
-0
-147
-
-radius := radius + 1;

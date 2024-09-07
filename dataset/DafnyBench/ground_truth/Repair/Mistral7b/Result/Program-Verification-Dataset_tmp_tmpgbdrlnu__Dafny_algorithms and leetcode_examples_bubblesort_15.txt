@@ -1,5 +1,0 @@
-1
-34
-
- if a.Length == 0 { return 0; }   //buggy line
-return 0;

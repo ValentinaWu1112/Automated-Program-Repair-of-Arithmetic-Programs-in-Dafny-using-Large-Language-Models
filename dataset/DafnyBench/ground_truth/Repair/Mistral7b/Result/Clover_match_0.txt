@@ -1,4 +1,0 @@
-0
-14
-
- i := i + 1; // Change the sign to increment instead of decrement.

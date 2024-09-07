@@ -1,5 +1,0 @@
-0
-5
-
- more := x + y; // correct line
-less := x - y;

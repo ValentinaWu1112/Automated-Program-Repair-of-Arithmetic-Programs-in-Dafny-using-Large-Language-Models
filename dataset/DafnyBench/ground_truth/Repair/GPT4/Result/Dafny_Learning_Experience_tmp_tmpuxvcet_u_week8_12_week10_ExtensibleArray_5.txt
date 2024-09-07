@@ -1,4 +1,0 @@
-0
-92
-
-    length := length + 1;

@@ -1,4 +1,0 @@
-0
-20
-
- i := i + 1; // Corrected line. The index should be incremented instead of decremented.

@@ -1,4 +1,0 @@
-0
-10
-
- var c, f := 0, v.Length - 1; //fixed line

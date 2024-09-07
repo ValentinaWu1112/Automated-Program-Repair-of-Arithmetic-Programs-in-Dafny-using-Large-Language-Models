@@ -1,4 +1,0 @@
-0
-36
-
- res := res + a[k]; // instead of subtraction, use addition to sum up the elements from i to k.

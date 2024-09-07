@@ -1,5 +1,0 @@
-1
-45
-
-a := a + 1; // corrected line
-b := b + 1;

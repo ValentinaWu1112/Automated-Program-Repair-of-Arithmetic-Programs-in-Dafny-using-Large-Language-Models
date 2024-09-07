@@ -1,3 +1,0 @@
-0
-
- valor := valor - 1;

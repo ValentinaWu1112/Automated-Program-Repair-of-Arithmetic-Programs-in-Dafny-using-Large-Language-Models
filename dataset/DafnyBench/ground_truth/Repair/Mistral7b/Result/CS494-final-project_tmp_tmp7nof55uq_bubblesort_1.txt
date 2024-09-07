@@ -1,4 +1,0 @@
-0
-52
-
- j := j - 1; // Decrement j by one instead of zero to maintain the correct loop invariant.

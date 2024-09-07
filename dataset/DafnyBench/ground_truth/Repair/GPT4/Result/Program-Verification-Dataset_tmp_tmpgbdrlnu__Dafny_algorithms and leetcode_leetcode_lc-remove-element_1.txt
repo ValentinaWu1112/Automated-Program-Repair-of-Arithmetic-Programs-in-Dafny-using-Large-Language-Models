@@ -1,4 +1,0 @@
-0
-7
-
-var end := nums.Length - 1;

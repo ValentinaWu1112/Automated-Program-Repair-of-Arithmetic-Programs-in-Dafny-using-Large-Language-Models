@@ -1,4 +1,0 @@
-0
-20
-
- result := result + 1; // corrected line

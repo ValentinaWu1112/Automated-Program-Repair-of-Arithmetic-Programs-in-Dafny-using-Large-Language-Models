@@ -1,8 +1,0 @@
-0
-6
-
- 
-// MODULE main
-// 	int i;
-// 	int sum;
-// 	int n

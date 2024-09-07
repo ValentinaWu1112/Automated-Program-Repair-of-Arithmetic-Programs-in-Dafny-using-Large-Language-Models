@@ -1,4 +1,0 @@
-0
-71
-
-var upper: int := |people| - 1;

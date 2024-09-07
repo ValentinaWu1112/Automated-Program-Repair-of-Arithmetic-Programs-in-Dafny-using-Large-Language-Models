@@ -1,4 +1,0 @@
-0
-8
-
-if (length == 1) { return 1; } else { return 1; }

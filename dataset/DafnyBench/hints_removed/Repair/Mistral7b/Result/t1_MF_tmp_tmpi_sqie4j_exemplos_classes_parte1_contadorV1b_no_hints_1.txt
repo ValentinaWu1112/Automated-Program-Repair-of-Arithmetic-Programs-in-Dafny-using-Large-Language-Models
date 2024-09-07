@@ -1,4 +1,0 @@
-0
-23
-
- valor := valor + 1; // instead of valor += 1 or valor := valor + 1; (both are also correct)

@@ -1,4 +1,0 @@
-0
-85
-
-subscriptions := subscriptions + {car};

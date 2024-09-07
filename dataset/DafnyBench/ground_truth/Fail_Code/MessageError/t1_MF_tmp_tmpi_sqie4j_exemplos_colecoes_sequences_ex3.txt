@@ -1,2 +1,0 @@
-this invariant could not be proved to be maintained by the loop
-Related message: loop invariant violation

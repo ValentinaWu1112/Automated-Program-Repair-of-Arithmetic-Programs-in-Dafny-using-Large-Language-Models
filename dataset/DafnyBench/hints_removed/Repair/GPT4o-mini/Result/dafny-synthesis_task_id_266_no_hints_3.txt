@@ -1,4 +1,0 @@
-0
-5
-
-area := 4 * size * size;

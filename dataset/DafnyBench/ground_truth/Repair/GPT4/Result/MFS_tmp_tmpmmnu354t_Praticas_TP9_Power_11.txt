@@ -1,4 +1,0 @@
-0
-64
-
-return r * r; //buggy line

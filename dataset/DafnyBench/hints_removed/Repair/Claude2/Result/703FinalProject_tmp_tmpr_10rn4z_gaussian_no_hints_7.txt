@@ -1,6 +1,0 @@
-1
-14
-
-
-// You must correct the buggy line to ensure that the program verifies successfully.
-// Please see the test.txt file for more

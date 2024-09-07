@@ -1,4 +1,0 @@
-1
-4
-
- {return x + 1;} // Corrected buggy line.

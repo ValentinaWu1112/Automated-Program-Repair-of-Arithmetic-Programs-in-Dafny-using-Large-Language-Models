@@ -1,4 +1,0 @@
-0
-74
-
-    var i := n; //buggy line

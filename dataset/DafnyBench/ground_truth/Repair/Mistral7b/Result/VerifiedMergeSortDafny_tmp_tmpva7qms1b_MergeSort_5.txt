@@ -1,4 +1,0 @@
-1
-27
-
- a2Pos := a2Pos + 1; // correct line numbering for readability

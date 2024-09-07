@@ -1,4 +1,0 @@
-2
-5
-
-volume := (3.14159265358979323846 / 3.0) * radius * radius * height;

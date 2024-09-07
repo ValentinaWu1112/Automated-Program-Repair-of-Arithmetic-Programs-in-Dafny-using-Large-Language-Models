@@ -1,4 +1,0 @@
-2
-31
-
- a1Pos := a1Pos + 1; // corrected line

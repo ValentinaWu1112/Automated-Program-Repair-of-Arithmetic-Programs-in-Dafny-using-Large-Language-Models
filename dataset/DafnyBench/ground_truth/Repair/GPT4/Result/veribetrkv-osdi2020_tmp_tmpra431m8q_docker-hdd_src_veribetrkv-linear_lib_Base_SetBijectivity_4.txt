@@ -1,4 +1,0 @@
-0
-14
-
-ghost var setB' := setB - {b};

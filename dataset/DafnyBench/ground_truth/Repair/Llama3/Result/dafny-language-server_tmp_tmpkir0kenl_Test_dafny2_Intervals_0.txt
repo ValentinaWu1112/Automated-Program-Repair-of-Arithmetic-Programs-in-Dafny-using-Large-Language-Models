@@ -1,4 +1,0 @@
-0
-25
-
-var i, j := 0, thresholds.Length - 1;

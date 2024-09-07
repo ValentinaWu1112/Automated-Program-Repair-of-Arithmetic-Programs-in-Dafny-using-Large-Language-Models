@@ -1,4 +1,0 @@
-0
-19
-
-    m' := m' - multiset{p}; //buggy line

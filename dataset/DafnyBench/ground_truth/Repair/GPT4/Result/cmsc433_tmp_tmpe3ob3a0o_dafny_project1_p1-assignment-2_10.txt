@@ -1,4 +1,0 @@
-0
-52
-
-    return m / n, m % n; //buggy line

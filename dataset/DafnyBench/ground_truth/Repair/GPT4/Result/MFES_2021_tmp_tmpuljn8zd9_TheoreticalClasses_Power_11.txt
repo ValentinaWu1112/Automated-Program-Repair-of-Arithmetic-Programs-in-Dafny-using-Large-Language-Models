@@ -1,4 +1,0 @@
-0
-46
-
-return temp * temp; //buggy line

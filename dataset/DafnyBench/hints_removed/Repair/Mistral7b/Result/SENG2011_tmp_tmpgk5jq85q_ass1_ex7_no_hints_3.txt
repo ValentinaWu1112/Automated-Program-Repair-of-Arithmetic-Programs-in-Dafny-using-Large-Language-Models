@@ -1,5 +1,0 @@
-0
-7
-
- indx := step - indx; // Change the assignment operator to subtraction.
-// Corrected line: indx := step

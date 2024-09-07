@@ -1,4 +1,0 @@
-2
-72
-
- i := i - 1; // Decrement i instead of incrementing it.

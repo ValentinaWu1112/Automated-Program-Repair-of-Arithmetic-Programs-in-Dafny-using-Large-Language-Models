@@ -1,3 +1,0 @@
-0
-
- volume := size * size * size;

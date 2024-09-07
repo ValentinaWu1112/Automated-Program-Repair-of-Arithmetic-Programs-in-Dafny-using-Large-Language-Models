@@ -1,4 +1,0 @@
-0
-15
-
-pivotPos := a.Length - 1; // chooses pivot at end of array 

@@ -1,4 +1,0 @@
-0
-9
-
- r := x + y; // Corrected line to ensure r equals 3*x.

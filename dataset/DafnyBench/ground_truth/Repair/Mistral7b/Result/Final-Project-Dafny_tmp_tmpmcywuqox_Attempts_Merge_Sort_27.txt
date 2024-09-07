@@ -1,4 +1,0 @@
-0
-57
-
- x := x + 1; //increase x by 1 to update the index correctly in the next iteration.

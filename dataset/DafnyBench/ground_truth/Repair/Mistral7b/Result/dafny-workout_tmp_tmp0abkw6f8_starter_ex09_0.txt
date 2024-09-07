@@ -1,4 +1,0 @@
-1
-22
-
- b, c := c, b + c; // corrected line

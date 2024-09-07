@@ -1,5 +1,0 @@
-0
-
- if (a != b && b == c) {
-    count := count + 1;
-}

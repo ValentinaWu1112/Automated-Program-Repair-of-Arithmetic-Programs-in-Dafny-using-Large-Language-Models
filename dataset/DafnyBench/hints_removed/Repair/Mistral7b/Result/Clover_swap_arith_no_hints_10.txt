@@ -1,4 +1,0 @@
-0
-10
-
- x := x + y; // correct line for swapping values of x and y using arithmetic operations only.

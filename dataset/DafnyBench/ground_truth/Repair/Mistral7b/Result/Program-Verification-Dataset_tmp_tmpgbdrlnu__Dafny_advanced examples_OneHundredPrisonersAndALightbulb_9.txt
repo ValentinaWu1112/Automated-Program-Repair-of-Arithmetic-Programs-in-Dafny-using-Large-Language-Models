@@ -1,5 +1,0 @@
-1
-40
-
- switch := false; // buggy line
-switch := true;

@@ -1,4 +1,0 @@
-2
-51
-
- else if s[i] == u[i] {b := b + 1;} //correct buggy line

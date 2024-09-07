@@ -1,4 +1,0 @@
-0
-160
-
-reservedCarPark := reservedCarPark + {car}; //buggy line

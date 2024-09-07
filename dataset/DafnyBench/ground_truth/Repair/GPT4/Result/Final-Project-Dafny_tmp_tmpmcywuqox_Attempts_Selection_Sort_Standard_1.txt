@@ -1,4 +1,0 @@
-1
-13
-
-var idx' := idx + 1; //buggy line

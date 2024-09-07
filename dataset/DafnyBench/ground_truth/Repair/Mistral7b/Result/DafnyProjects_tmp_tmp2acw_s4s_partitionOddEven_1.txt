@@ -1,4 +1,0 @@
-0
-9
-
- var j := a.Length - 1; // even numbers are placed to the right of j

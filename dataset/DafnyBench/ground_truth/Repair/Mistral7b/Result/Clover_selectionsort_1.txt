@@ -1,5 +1,0 @@
-0
-13
-
- var mindex, m := n, n + 1; // corrected line
-// Make sure the array indices are within bounds before performing sw

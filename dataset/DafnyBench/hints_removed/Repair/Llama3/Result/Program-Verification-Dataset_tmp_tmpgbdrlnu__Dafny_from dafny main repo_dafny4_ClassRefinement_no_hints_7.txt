@@ -1,4 +1,0 @@
-1
-67
-
-ghost var repr := {this, c, d};

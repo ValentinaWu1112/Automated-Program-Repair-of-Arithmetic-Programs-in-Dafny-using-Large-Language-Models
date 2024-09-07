@@ -1,5 +1,0 @@
-0
-20
-
- while i != N //buggy line
-while i != N && i >= 0 //fixed line

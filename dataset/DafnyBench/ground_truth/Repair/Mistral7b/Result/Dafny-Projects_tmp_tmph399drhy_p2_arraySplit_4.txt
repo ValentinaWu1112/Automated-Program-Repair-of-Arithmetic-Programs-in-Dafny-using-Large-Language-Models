@@ -1,4 +1,0 @@
-1
-21
-
- i := i + 1; // corrected the loop increment to move forward instead of backward.

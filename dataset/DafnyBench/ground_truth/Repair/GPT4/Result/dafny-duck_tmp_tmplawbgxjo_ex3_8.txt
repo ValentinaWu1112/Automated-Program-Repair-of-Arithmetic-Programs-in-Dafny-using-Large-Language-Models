@@ -1,4 +1,0 @@
-0
-38
-
-aPointer := aPointer + 1;

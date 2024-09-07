@@ -1,6 +1,0 @@
-2
-6
-
- r := students / tutors; // Change the assignment operator to division operator.
-
-// Or, you can use the AssignmentsTo

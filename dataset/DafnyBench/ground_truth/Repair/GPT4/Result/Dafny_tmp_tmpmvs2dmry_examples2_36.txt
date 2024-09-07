@@ -1,4 +1,0 @@
-1
-97
-
-y := x * y; //buggy line

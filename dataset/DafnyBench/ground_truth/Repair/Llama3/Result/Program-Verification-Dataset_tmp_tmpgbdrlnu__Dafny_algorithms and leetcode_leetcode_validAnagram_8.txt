@@ -1,5 +1,0 @@
-1
-36
-
-
-scopy := scopy - removed[x := s[x]];

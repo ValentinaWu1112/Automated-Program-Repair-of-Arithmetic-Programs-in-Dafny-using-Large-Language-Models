@@ -1,6 +1,0 @@
-1
-
- //buggy line corrected to
-
-sum := sum + i;
-i := i - 1;

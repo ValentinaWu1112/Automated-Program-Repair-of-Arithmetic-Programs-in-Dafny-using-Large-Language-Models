@@ -1,4 +1,0 @@
-1
-28
-
- N := N + 1; // Replace the buggy line with this corrected line.

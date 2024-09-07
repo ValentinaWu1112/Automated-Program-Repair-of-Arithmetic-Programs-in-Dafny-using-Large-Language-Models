@@ -1,4 +1,0 @@
-2
-113
-
-rear := rear + 1; //buggy line

@@ -1,4 +1,0 @@
-2
-26
-
- r := r - 1; // should be r -= 1; or r-- for Dafny syntax.

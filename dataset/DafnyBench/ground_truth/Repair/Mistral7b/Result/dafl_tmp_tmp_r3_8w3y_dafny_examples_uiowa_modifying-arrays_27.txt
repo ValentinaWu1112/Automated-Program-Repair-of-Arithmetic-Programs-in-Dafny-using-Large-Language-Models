@@ -1,4 +1,0 @@
-0
-103
-
- a[n] := a[n] + 1; //correct line for incrementing arrays method.

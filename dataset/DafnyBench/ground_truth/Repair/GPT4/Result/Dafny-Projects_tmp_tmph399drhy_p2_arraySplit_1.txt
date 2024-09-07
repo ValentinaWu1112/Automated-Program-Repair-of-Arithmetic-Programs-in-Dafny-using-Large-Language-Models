@@ -1,4 +1,0 @@
-0
-9
-
-  var splitPoint: int := a.Length / 2;

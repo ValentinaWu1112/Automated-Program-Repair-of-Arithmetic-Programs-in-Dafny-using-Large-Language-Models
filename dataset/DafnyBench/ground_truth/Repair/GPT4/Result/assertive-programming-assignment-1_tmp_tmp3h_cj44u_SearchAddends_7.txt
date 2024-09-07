@@ -1,4 +1,0 @@
-1
-36
-
-var sum := q[i] + q[j]; //buggy line

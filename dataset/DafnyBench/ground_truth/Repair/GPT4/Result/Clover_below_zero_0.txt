@@ -1,4 +1,0 @@
-0
-19
-
-s[i] := s[i - 1] + operations[i - 1];

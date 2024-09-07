@@ -1,4 +1,0 @@
-0
-165
-
-nf := mn - n; //buggy line

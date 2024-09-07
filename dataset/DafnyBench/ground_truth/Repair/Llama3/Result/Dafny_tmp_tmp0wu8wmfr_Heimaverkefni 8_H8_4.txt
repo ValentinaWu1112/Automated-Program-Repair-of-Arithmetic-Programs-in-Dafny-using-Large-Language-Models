@@ -1,4 +1,0 @@
-1
-30
-
-m' := m'-multiset{temp};

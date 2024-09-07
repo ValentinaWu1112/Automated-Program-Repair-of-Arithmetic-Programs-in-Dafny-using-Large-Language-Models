@@ -1,4 +1,0 @@
-1
-97
-
-ghost var rank_before := y - i;

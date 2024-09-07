@@ -1,7 +1,0 @@
-1
-
- if (a.Length % 2 == 0) {
-median := (a[a.Length / 2 - 1] + b[0]) / 2; // corrected line
-} else {
-median := a[a.Length / 2];
-}

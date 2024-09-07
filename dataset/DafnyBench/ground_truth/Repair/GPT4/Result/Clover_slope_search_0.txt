@@ -1,4 +1,0 @@
-1
-8
-
-m, n := 0, a.Length1 - 1; //buggy line

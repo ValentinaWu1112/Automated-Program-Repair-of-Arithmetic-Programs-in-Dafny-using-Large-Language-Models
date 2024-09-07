@@ -1,4 +1,0 @@
-2
-15
-
-pivotPos := a.Length - 1;

@@ -1,4 +1,0 @@
-1
-39
-
- return last + 1;

@@ -1,4 +1,0 @@
-2
-51
-
-return temp * temp * x;

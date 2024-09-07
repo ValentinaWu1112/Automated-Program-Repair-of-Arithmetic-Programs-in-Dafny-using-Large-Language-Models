@@ -1,4 +1,0 @@
-0
-29
-
-up := up + 1; //buggy line

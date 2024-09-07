@@ -1,4 +1,0 @@
-0
-29
-
- s_remaining := s_remaining - temp[remaining := t[remaining]]; // corrected line

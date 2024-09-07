@@ -1,4 +1,0 @@
-0
-60
-
-seenItems := seenItems + {item};

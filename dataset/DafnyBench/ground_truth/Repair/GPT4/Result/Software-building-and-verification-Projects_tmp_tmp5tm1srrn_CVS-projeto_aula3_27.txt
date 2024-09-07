@@ -1,4 +1,0 @@
-0
-119
-
-    r := r + i; //buggy line

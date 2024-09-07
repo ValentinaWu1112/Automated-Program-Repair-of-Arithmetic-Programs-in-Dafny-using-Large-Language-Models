@@ -1,4 +1,0 @@
-0
-36
-
- b := b + 1; // Decrement instead of subtracting to avoid array out-of-bounds errors.

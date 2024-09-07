@@ -1,3 +1,0 @@
-1
-
- var lastDigit := n % 10;

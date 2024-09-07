@@ -1,3 +1,0 @@
-0
-
- volume := (base * height * length) * 1 / 2;

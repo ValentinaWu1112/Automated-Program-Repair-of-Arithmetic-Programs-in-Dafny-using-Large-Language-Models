@@ -1,4 +1,0 @@
-0
-12
-
-keyCount := keyCount + (if a[i] == key then 1 else 0);

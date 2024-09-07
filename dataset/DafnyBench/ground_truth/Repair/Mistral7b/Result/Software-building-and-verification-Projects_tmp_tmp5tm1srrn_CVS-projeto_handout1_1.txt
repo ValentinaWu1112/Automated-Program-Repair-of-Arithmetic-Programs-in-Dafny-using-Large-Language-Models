@@ -1,4 +1,0 @@
-0
-19
-
- var ind := j - 1; // corrected from ind := j - -1

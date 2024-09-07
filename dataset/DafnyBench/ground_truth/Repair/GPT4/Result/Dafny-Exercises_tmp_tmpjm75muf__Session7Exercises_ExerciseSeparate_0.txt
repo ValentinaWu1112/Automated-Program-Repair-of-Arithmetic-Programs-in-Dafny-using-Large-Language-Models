@@ -1,4 +1,0 @@
-0
-22
-
-var j := v.Length - 1; //buggy line

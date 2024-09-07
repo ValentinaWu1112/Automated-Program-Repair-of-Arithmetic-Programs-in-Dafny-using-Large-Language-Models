@@ -1,4 +1,0 @@
-0
-20
-
-    index := index + 1; //buggy line

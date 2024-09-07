@@ -1,4 +1,0 @@
-0
-58
-
-var inner_mid := (lo + hi) / 2;

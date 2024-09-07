@@ -1,4 +1,0 @@
-0
-37
-
- k := k + 1; // corrected to k += 1

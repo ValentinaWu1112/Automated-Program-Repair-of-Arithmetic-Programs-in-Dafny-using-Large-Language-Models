@@ -1,6 +1,0 @@
-1
-6
-
- r := students / tutors; // Change the assignment operator to division operator.
-
-// The original line was using multiplication instead of division

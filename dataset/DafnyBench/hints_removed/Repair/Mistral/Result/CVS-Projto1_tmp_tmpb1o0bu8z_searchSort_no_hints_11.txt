@@ -1,5 +1,0 @@
-1
-
- pos := -1; //buggy line
-
-return pos;

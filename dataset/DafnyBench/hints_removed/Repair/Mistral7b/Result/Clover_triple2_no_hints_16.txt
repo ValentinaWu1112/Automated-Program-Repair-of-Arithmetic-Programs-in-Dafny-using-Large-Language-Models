@@ -1,4 +1,0 @@
-0
-10
-
- r := x + y; // Corrected line. Subtraction should be addition to get triple of x.

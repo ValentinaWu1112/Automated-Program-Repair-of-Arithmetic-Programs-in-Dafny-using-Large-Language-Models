@@ -1,4 +1,0 @@
-0
-20
-
-    ghost var c := (a + b) / b - a / b - 1; //buggy line

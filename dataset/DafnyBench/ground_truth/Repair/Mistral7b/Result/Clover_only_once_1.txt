@@ -1,5 +1,0 @@
-0
-14
-
- keyCount := keyCount + 1; // Corrected line
-// The bug was that the variable keyCount was incremented with 

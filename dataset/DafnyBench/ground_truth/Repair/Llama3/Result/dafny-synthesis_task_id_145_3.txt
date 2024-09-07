@@ -1,4 +1,0 @@
-2
-19
-
-diff := maxVal - minVal;

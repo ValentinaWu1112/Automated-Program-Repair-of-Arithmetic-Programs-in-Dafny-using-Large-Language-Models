@@ -1,4 +1,0 @@
-0
-19
-
-            dst[m,n] := src[m,n]; n := n + 1; //buggy line

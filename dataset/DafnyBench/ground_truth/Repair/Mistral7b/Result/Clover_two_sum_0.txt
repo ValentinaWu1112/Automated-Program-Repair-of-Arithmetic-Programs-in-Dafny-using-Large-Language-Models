@@ -1,4 +1,0 @@
-0
-15
-
- j := i + 1; // Change j to be incremented instead of decremented. This will ensure the invariant is maintained throughout the

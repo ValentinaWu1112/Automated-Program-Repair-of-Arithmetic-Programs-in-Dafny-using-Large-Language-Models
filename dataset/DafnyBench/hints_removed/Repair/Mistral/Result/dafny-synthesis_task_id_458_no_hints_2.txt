@@ -1,3 +1,0 @@
-0
-
- area := length * width;

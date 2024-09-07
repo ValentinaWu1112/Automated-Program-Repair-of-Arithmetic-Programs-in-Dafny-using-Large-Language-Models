@@ -1,4 +1,0 @@
-0
-48
-
-char_set := char_set + {s[hi]};

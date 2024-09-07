@@ -1,4 +1,0 @@
-0
-57
-
- var mid := i + (j - i) / 2; // corrected line

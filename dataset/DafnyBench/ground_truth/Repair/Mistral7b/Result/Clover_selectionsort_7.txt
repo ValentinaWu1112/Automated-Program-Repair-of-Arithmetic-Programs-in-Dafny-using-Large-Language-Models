@@ -1,4 +1,0 @@
-0
-21
-
- m := m + 1; // corrected line. Incrementing instead of decrementing the index.

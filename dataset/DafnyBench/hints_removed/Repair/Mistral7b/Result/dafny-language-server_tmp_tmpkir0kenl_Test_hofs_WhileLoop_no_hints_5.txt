@@ -1,5 +1,0 @@
-2
-25
-
- i := i + 1; // Corrected line.
-// Instead of decrementing i, we should increment it as intended in

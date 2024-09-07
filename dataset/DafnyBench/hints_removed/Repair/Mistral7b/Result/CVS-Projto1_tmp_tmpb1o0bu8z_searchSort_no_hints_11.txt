@@ -1,4 +1,0 @@
-0
-57
-
- p := p + 1; // or p++; instead of p := p - 0;

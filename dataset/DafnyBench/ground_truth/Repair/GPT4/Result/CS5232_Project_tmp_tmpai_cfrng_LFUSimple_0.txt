@@ -1,4 +1,0 @@
-2
-59
-
-items := items - {item};

@@ -1,4 +1,0 @@
-0
-5
-
- r := x + x + x; // Corrected buggy line. This line ensures that the product of 3 and the input x

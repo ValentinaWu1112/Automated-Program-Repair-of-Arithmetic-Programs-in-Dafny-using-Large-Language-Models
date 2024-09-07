@@ -1,4 +1,0 @@
-0
-189
-
-ghost var q := qleft + [n] + qright;

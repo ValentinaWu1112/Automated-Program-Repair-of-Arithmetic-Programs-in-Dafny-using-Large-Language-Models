@@ -1,4 +1,0 @@
-2
-28
-
- N := N + 1; // Replace N := N - 0; with N := N + 1; to fix the bug

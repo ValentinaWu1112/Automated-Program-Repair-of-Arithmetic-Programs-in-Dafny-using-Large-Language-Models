@@ -1,4 +1,0 @@
-1
-4
-
-	var setA: set<char> := set x | x in a && x in b; //buggy line

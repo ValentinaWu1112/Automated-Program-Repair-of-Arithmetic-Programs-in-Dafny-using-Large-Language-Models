@@ -1,4 +1,0 @@
-0
-30
-
- value := value - 1; // Corrected line for dec() method to ensure subtraction instead of addition.

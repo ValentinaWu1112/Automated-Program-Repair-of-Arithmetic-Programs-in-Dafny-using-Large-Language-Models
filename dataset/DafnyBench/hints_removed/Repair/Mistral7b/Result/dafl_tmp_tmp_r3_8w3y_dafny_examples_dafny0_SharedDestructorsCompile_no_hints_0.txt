@@ -1,4 +1,0 @@
-1
-27
-
- i := |s| - 1; // Change the comparison operator to get the last index instead of the first one in the array.

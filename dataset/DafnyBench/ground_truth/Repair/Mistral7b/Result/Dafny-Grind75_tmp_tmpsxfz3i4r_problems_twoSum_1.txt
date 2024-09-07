@@ -1,4 +1,0 @@
-0
-28
-
- var k: nat := i + 1; //fixed line

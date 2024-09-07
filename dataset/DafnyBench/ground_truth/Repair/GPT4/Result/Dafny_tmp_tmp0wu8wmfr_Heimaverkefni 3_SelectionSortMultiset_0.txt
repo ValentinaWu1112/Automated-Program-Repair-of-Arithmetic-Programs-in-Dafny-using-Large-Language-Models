@@ -1,4 +1,0 @@
-0
-20
-
-var m' := m - done; //buggy line

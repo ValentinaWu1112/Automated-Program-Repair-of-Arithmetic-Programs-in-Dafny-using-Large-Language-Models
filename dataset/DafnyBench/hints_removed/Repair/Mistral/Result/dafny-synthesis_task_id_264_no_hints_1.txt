@@ -1,3 +1,0 @@
-0
-
- dogYears := 7 * humanYears;

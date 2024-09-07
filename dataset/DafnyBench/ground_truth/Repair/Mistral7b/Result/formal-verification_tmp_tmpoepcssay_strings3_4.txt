@@ -1,4 +1,0 @@
-0
-104
-
- i := i + 1; // Replace this with i := i - 1;

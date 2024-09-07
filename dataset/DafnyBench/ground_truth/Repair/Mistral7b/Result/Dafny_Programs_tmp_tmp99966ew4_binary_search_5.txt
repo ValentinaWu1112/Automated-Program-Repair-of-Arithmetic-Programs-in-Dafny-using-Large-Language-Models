@@ -1,4 +1,0 @@
-0
-22
-
- low := mid + 1; // corrected line

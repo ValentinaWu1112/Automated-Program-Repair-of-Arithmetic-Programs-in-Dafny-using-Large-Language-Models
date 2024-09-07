@@ -1,4 +1,0 @@
-0
-172
-
-        radii[center] := max_mirrored_radius;

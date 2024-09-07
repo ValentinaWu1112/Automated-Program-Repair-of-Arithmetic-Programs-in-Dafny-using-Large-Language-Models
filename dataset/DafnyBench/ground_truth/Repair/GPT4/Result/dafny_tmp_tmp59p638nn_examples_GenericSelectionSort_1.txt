@@ -1,4 +1,0 @@
-0
-90
-
-      comparisonCount := comparisonCount + 1; //buggy line

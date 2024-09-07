@@ -1,4 +1,0 @@
-0
-4
-
- a := 2 * x; // should assign the result of multiplication to 'a' directly instead of dividing 'x' by 

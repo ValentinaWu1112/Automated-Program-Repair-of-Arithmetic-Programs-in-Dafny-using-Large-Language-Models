@@ -1,4 +1,0 @@
-0
-49
-
-t_removed := t_removed + temp[remaining := t[remaining]];

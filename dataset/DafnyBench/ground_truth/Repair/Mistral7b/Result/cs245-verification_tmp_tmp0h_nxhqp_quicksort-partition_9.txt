@@ -1,4 +1,0 @@
-0
-34
-
- a := a + 1; // No need to assign a new value to 'a' after the swap.

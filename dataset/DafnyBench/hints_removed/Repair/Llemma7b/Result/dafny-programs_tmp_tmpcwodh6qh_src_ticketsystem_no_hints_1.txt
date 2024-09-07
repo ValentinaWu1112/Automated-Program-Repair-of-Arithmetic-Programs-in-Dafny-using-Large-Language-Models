@@ -1,5 +1,0 @@
-0
-71
-
-
-// buggy line should be changed to cs := cs[p := Thinking]; or cs := cs[p := Eating];<unk>

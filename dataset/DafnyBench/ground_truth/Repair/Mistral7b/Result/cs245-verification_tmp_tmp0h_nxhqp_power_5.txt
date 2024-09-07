@@ -1,4 +1,0 @@
-0
-28
-
- i := i + 1; //change the increment to be 1 instead of 0.

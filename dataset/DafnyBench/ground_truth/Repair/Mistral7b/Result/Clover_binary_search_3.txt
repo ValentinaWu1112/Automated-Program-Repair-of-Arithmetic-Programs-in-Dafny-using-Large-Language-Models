@@ -1,4 +1,0 @@
-1
-14
-
- var mid := (lo + hi) / 2; // Divide by 2 instead of multiplying by 1.

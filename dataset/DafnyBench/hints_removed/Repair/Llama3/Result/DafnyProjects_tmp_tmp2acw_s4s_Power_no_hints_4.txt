@@ -1,4 +1,0 @@
-0
-30
-
-return x * temp * temp;

@@ -1,4 +1,0 @@
-0
-27
-
- aux := aux + 1; //fix the increment operation here.

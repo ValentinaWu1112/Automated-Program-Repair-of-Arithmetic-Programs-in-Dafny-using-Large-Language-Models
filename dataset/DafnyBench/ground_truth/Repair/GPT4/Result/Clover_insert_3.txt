@@ -1,4 +1,0 @@
-1
-10
-
-ghost var initialLine := line[0..];

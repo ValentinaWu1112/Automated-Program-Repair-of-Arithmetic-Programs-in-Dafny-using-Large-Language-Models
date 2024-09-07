@@ -1,6 +1,0 @@
-2
-4
-
- 
-// The program has 2 functions and 2 variables. 
-// The program is written in the Dafny programming language using

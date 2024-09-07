@@ -1,4 +1,0 @@
-1
-55
-
- sum := q[i] + q[j]; // Corrected line: sum should be calculated before assigning i++ or j--

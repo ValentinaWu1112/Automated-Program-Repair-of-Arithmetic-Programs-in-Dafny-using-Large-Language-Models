@@ -1,4 +1,0 @@
-1
-27
-
- i := i + 1; // Increment the index instead of decrementing it in the loop condition.

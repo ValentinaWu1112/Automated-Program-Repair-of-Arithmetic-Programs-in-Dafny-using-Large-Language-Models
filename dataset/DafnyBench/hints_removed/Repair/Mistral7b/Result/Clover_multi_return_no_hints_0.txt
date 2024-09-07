@@ -1,5 +1,0 @@
-0
-5
-
- more := x + y; // Corrected line for ensuring x + y = more and x - y = less.
-// Ensure the

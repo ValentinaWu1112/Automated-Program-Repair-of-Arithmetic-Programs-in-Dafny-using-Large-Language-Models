@@ -1,4 +1,0 @@
-2
-34
-
- i := i + 1; // Decrementing the index in the loop condition instead of after the body.

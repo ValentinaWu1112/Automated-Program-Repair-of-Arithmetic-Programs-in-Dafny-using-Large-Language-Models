@@ -1,4 +1,0 @@
-0
-21
-
- max_profit := price - min_price;

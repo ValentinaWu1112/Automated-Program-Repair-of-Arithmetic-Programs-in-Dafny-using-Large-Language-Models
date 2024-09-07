@@ -1,1 +1,0 @@
-possible violation of postcondition of forall statement

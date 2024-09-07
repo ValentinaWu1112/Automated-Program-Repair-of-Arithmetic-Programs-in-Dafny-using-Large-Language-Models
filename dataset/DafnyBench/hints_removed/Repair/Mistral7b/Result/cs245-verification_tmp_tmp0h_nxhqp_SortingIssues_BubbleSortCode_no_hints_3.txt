@@ -1,4 +1,0 @@
-0
-26
-
- j := j + 1; // Corrected line. The decrement should be replaced with an increment to maintain the loop invariant.

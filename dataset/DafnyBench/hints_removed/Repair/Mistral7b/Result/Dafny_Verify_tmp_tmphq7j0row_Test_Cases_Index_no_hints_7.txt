@@ -1,4 +1,0 @@
-0
-32
-
- s := x + y; //correct line.

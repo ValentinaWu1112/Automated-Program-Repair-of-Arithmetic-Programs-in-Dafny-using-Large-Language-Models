@@ -1,4 +1,0 @@
-0
-40
-
-y[n] := y[n] + X_val[k] * v[X_crd[k]]; //buggy line

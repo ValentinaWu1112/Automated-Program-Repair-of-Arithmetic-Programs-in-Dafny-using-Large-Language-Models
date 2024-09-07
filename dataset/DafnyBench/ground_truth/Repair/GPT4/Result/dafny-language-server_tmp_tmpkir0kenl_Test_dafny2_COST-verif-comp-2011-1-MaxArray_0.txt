@@ -1,4 +1,0 @@
-1
-67
-
-var y := a.Length - 1; //buggy line

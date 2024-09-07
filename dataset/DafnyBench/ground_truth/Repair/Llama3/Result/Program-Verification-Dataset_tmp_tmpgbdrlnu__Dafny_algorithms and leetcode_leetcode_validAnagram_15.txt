@@ -1,4 +1,0 @@
-2
-56
-
-tremoved := tremoved + removed[ x := s[x] ];

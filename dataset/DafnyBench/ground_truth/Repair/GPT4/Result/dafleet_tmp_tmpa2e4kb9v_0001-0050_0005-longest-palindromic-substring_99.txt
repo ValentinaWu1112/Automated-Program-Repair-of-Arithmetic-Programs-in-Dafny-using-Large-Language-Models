@@ -1,4 +1,0 @@
-1
-412
-
-ghost var left, right := c - (r + 1), c + (r + 1);

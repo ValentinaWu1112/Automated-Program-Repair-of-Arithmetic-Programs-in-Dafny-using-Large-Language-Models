@@ -1,4 +1,0 @@
-0
-52
-
- j := j - 1; // Decrement j instead of incrementing it. This will allow the loop to iterate backwards through the

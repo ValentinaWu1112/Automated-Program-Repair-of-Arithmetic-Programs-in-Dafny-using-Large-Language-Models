@@ -1,4 +1,0 @@
-0
-42
-
- var rest := target - element; //change sign of the subtraction operation.

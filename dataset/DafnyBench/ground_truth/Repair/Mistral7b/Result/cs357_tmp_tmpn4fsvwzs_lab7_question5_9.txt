@@ -1,4 +1,0 @@
-1
-35
-
- r := r + 1; // Change the sign in the buggy line to fix the issue.

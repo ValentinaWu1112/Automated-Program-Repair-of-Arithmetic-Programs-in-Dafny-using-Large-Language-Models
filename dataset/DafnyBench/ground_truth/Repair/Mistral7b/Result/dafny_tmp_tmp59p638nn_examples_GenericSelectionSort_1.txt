@@ -1,4 +1,0 @@
-1
-90
-
- comparisonCount := comparisonCount + 0 + 1; // fixed line

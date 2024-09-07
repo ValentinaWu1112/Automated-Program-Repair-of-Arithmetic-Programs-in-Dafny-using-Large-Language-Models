@@ -1,5 +1,0 @@
-2
-12
-
- r := r + n; //fixed line
-m := m - 1; //also needed to fix the loop condition

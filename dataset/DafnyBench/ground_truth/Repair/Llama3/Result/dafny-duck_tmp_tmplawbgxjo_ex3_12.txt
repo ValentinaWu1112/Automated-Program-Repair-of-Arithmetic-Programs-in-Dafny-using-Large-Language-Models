@@ -1,4 +1,0 @@
-1
-20
-
-while aPointer < next && dPointer > next

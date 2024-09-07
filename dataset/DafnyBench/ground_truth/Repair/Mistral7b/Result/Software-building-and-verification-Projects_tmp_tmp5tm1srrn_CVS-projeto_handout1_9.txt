@@ -1,4 +1,0 @@
-0
-27
-
- ind := ind - 1; // corrected from ind := ind - -1

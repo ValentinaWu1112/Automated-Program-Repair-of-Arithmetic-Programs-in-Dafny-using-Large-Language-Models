@@ -1,4 +1,0 @@
-0
-75
-
-var j := f - 1; //buggy line

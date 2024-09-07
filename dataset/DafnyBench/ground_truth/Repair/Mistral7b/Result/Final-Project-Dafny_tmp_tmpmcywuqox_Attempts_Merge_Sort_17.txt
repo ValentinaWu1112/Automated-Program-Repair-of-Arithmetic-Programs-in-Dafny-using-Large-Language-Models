@@ -1,5 +1,0 @@
-1
-11
-
- var x := 0; //buggy line
-x := high - low + 1;

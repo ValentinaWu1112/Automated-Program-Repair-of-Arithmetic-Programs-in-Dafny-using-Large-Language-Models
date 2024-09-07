@@ -1,3 +1,0 @@
-1
-
- The buggy line has been fixed to `while(k > 4) { print a[k], "\n"; k := k -1; }`.

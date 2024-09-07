@@ -1,4 +1,0 @@
-0
-20
-
-            res := res + m;  //buggy line

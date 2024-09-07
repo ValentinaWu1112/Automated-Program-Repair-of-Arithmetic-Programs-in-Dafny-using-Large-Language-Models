@@ -1,4 +1,0 @@
-1
-9
-
-      var y := 2 * x; //buggy line

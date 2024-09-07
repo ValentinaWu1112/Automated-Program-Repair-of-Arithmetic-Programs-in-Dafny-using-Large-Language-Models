@@ -1,4 +1,0 @@
-0
-37
-
-post := post + multiset{temp}; //buggy line

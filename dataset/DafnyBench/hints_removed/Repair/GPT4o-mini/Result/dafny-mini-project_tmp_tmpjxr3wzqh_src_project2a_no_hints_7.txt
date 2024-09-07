@@ -1,4 +1,0 @@
-0
-115
-
-    messages := messages + {m}; //buggy line

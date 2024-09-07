@@ -1,4 +1,0 @@
-0
-12
-
- s := s + n; // Corrected line to update the sum variable correctly.

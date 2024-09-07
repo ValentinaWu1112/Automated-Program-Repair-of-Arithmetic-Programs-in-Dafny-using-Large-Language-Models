@@ -1,4 +1,0 @@
-0
-65
-
- i := v.Length - 1; // corrected line

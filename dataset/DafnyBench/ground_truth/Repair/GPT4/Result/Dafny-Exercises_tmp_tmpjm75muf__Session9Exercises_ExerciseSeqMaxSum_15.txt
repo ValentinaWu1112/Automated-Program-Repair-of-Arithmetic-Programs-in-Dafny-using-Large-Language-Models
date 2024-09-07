@@ -1,4 +1,0 @@
-1
-73
-
-s := s + v[j - 1]; //buggy line

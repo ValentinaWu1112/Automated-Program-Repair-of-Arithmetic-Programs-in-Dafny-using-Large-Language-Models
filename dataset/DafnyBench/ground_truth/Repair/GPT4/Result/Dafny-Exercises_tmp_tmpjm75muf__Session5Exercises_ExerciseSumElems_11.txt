@@ -1,4 +1,0 @@
-0
-178
-
-sum := sum + v[i - 1]; //buggy line

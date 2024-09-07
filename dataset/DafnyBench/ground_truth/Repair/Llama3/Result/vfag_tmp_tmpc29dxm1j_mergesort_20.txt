@@ -1,4 +1,0 @@
-0
-138
-
-j := j + 1; // Fixed line, changed from -1 to +1.

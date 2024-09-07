@@ -1,4 +1,0 @@
-1
-16
-
- var sumi := x.Length + y.Length; // corrected line

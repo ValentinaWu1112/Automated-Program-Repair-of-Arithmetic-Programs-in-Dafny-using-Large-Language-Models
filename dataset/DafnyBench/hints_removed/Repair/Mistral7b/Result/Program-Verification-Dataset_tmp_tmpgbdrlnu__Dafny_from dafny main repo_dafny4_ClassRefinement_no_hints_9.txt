@@ -1,4 +1,0 @@
-1
-28
-
- N := N + 1; // or N := Old(N) + 1; depending on the intended behavior of the `Inc

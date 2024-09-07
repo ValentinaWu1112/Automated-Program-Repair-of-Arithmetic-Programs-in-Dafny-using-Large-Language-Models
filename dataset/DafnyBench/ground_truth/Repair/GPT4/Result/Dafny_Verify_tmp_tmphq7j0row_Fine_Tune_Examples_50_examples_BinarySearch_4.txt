@@ -1,4 +1,0 @@
-0
-17
-
-lo := mid + 1; //buggy line

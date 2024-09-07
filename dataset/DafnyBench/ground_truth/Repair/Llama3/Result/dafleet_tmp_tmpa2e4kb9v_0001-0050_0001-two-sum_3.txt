@@ -1,5 +1,0 @@
-1
-42
-
-
-var rest := target - element;

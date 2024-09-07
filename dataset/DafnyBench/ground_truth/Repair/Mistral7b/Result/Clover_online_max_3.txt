@@ -1,4 +1,0 @@
-1
-21
-
- i := i + 1; // Fix the loop condition in the second while loop to ensure it runs until a.Length is reached.

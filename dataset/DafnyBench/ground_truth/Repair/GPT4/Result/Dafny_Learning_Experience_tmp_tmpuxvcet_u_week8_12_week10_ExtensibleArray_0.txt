@@ -1,4 +1,0 @@
-0
-89
-
-    Repr := Repr + {front}; //buggy line

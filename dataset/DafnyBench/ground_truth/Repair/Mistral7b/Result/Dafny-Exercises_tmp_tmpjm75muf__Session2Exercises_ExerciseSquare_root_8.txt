@@ -1,4 +1,0 @@
-0
-39
-
- y := n + 1; // corrected line

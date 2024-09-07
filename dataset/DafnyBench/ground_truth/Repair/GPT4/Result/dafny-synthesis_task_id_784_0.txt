@@ -1,4 +1,0 @@
-0
-67
-
-product := lst[evenIndex] * lst[oddIndex];

@@ -1,4 +1,0 @@
-0
-67
-
- var y := a.Length - 1; //buggy line corrected to: var y := a.Length - 0;

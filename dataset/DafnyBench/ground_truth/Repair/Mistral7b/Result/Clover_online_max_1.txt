@@ -1,4 +1,0 @@
-0
-21
-
- i := i + 1; // instead of i := i - 1 (on the buggy line)

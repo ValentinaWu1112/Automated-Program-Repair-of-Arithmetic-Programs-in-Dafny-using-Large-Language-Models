@@ -1,4 +1,0 @@
-0
-27
-
- ghost var new_b := b - {y}; //buggy line

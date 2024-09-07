@@ -1,3 +1,0 @@
-1
-
- area := 4 * size * size;
